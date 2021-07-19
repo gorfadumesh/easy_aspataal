@@ -11,19 +11,21 @@ export default function ApplyCards() {
             <div className="cards">
 
                 <div class="card">
-                    <div><img src={Finance} alt="image" /></div>
+                    <div><img src={Plan} alt="image" className="apl-card-img" /></div>
+                    <div className="apl-card-text">  <h1 className="apl-card-heading">Plan a Surgery</h1>
+                        <h3 className="apl-card-heading2"  >Looking for a treatment ?</h3>
+                        <h4 className="apl-card-p">Find your surgery price<br />  and plan your treatment in<br /> your nearest Hospital</h4>
+                        <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Search</button>
+                    </div>
 
-                    <h1>Plan a Surgery</h1>
-                    <p class="price">Looking for a treatment ?</p>
-                    <p>Find your surgery price and plan your treatment in your nearest Hospital</p>
-                    <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Search</button>
                 </div>
                 <div class="card">
-                    <div><img src={Plan} alt="image" /></div>
-                    <h1>Finance Your Sergery</h1>
-                    <p class="price">$19.99</p>
-                    <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
-                    <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Search</button>
+                    <div><img src={Finance} alt="image" className="apl-card-img" /></div>
+                    <div className="apl-card-text">  <h1 className="apl-card-heading">Finance Your Surgery</h1>
+                        <h3 className="apl-card-heading2"  >Worried About Medical Expenses</h3>
+                        <h4 className="apl-card-p">Find your surgery price<br />  and plan your treatment in<br /> your nearest Hospital</h4>
+                        <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Search</button>
+                    </div>
                 </div>
 
 

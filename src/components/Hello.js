@@ -6,8 +6,8 @@ export default function Hello() {
     return (
         <div className="say-hello">
             <Container className="hello-inner">
-                <Row>
-                    <Col className="hello-image" ><img src={hello} alt="hello" /></Col>
+                <Row className="hello-container">
+                    <Col className="hello-image" ><img src={hello} alt="hello" className="hello-image" /></Col>
 
                     <Col className="hello-text">
                         <h1 className="title">Say <span style={{ color: "#FB8B4C" }} >hello!</span></h1>

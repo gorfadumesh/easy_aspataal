@@ -64,25 +64,25 @@ export default function Footer() {
                 </Container>
                 <hr className="footer-divider" />
                 <div className="footer2">
-                    <Row>
-                        <Col>
+                    <div className="footer2-content" >
+                        <div className="footer-part">
 
-                            <h2 style={{ color: "white" }}> <span className="bold-font"> EasyAspataal </span> emails are pretty awesome.</h2>
+                            <h2 style={{ color: "white" }}> <span className="bold-font"> EasyAspataal </span>  emails are pretty awesome. </h2>
                             <div className="footer-inputs">
                                 <input placeholder="Enter Email Address" className="footer-input"></input>
                                 <button className="footer-button" >Sign Up</button>
                             </div>
-                            <h3 style={{ color: "white" }}>By signing up , i agree to the <span style={{ color: "#FB8B4C" }}>terms and condition </span> and to receive emails.</h3>
+                            <h5 className="footer-font1" style={{ color: "white" }}>By signing up , i agree to the <span style={{ color: "#FB8B4C" }}>terms and condition </span> and to receive emails.</h5>
 
-                        </Col>
-                        <Col classNam="socail">
+                        </div>
+                        <div className="footer-part">
                             <h2 className="footer-font">Follows Us on</h2>
                             <br />
                             <div > < FaFacebook className="social-media" /><FaTwitter className="social-media" />< FaLinkedinIn className="social-media" /><FaInstagram className="social-media" /></div>
 
-                        </Col>
-                    </Row>
-                    <h4 style={{ color: "white" }}>Ⓒ  2021 EasyAspataal | All Rights Reserved</h4>
+                        </div>
+                    </div>
+                    <h4 className="footer-last" style={{ color: "white" }}>Ⓒ  2021 EasyAspataal | All Rights Reserved</h4>
                 </div>
 
 

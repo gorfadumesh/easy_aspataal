@@ -47,6 +47,7 @@ export default function NavbarHeader() {
                                 id="nav-dropdown-basic-example"
                                 title="Eyes"
                                 menuVariant="light"
+                                className="nav-items"
                             >
                                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>

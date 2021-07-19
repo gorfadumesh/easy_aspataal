@@ -21,22 +21,25 @@ export default function Why() {
                         </header> */}
                         <div class="row">
                             <div class="col-xs-6 col-sm-4 col-md-3 i">
-                                <div class="c text-center">
-                                    <div class="wrap">
-                                        <img src={Loan} alt="#" width="270" height="270" class="img-responsive" />
-                                        <div class="info">
-                                            <h4 class="name">Easy Loan</h4>
-                                            {/* <h4 class="position">Chief Executive Officer</h4> */}
+                                <div className="why-card">
+                                    <div class="c text-center">
+                                        <div class="wrap">
+                                            <img src={Loan} alt="#" width="270" height="270" class="img-responsive" />
+                                            <div class="info">
+                                                <h4 class="name">Easy Loan</h4>
+                                                {/* <h4 class="position">Chief Executive Officer</h4> */}
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="more">
-                                        <p> The only platform for all your surgery care decisions, information and treatment <br /> Search, book and get connected with the quality care around you.</p>
-                                        <div class="socials">
-                                            <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Apply</button>
+                                        <div class="more">
+                                            <p> The only platform for all your surgery care decisions, information and treatment <br /> Search, book and get connected with the quality care around you.</p>
+                                            <div class="socials">
+                                                <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Apply</button>
 
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                             <div class="col-xs-6 col-sm-4 col-md-3 i">
                                 <div class="c text-center">

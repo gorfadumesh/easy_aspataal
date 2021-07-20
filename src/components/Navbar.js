@@ -10,32 +10,32 @@ export default function NavbarHeader() {
     return (
         <div>
             <>
-                <Navbar bg="white" expand="xxl " className="nav">
-                    <Container>
+                <div >
+                    <div className="nav-one">
 
 
 
-                        <Navbar.Brand href="#home">
+                        <div href="#home">
 
                             <img className="logo" src={Logo} alt="logo" />
-                        </Navbar.Brand>
-                        <Nav >
+                        </div>
+                        <div className="nav-menu" >
 
-                            <Nav.Link href="#home"><h6>Home</h6></Nav.Link>
+                            <Nav.Link href="#home"><h5>Home</h5></Nav.Link>
                             &emsp;
 
-                            <Nav.Link href="#features"><h6>For Hospital</h6></Nav.Link>
+                            <Nav.Link href="#features"><h5>For Hospital</h5></Nav.Link>
                             &emsp;
 
-                            <Nav.Link href="#pricing"><h6>For Corporate</h6></Nav.Link>
-                        </Nav>
-                        <Nav> <button style={{ backgroundColor: "#0C065E" }} className="button">Book Now</button>
+                            <Nav.Link href="#pricing"><h5>For Corporate</h5></Nav.Link>
+                        </div>
+                        <div> <button style={{ backgroundColor: "#0C065E" }} className="button">Book Now</button>
                             <button style={{ backgroundColor: "#5032D5" }} className="button">Login</button>
                             <BsList color="#5032D5" size="50px" />
-                        </Nav>
+                        </div>
 
-                    </Container>
-                </Navbar>
+                    </div>
+                </div>
                 {/* <br /> */}
                 <Navbar className="navbar" variant="dark">
                     <Container>

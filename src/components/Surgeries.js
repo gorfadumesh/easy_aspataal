@@ -16,7 +16,7 @@ export default function Surgeries() {
                 <h1>TOP SURGERIES</h1>
 
                 <div className="surgery-list">
-                    <Container>
+                    <div>
                         <Row>
                             <Col>  <a  > < img src={Tooth} alt="logo" className="sur-image" /> <h5>Tooth</h5> </a></Col>
                             <Col><a > < img src={Veins} alt="logo" className="sur-image" /> <h5>Veins</h5> </a> </Col>
@@ -29,7 +29,7 @@ export default function Surgeries() {
 
                         </Row>
 
-                    </Container>
+                    </div>
                 </div>
 
             </div>

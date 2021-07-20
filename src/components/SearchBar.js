@@ -18,7 +18,7 @@ export default function SearchBar() {
                 </div>
 
                 <div className="recent-search" >
-                    <h6 style={{ color: "white" }} >Recent Searches :</h6>  &emsp; <a className="link-font" href="#home"><h6>Lung Canecer ,</h6></a>  &emsp; <a className="link-font" href="#home"><h6>Angioscopy ,</h6></a>  &emsp; <a className="link-font" href="#home"><h6>Bypass Surgery</h6></a>
+                    <span style={{ color: "white" }} >Recent Searches :</span>  &emsp; <a className="link-font" href="#home">Lung Canecer </a>  &emsp; <a className="link-font" href="#home">Angioscopy </a>  &emsp; <a className="link-font" href="#home">Bypass Surgery</a>
                 </div>
 
 

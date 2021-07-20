@@ -14,6 +14,7 @@ export default function Why() {
 
             <div>
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+
                 <div class="container">
                     <div class="section ourTeam">
                         {/* <header class="text-center">
@@ -33,7 +34,7 @@ export default function Why() {
                                         <div class="more">
                                             <p> The only platform for all your surgery care decisions, information and treatment <br /> Search, book and get connected with the quality care around you.</p>
                                             <div class="socials">
-                                                <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Apply</button>
+                                                <button className="card-button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
 
                                             </div>
                                         </div>
@@ -53,7 +54,7 @@ export default function Why() {
                                     <div class="more">
                                         <p> The only platform for all your surgery care decisions, information and treatment <br /> Search, book and get connected with the quality care around you.</p>
                                         <div class="socials">
-                                            <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Apply</button>
+                                            <button className="card-button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
 
                                         </div>
                                     </div>
@@ -74,7 +75,7 @@ export default function Why() {
                                     <div class="more">
                                         <p> The only platform for all your surgery care decisions, information and treatment <br /> Search, book and get connected with the quality care around you.</p>
                                         <div class="socials">
-                                            <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Apply</button>
+                                            <button className="card-button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
 
                                         </div>
                                     </div>
@@ -92,7 +93,7 @@ export default function Why() {
                                     <div class="more">
                                         <p> The only platform for all your surgery care decisions, information and treatment <br /> Search, book and get connected with the quality care around you.</p>
                                         <div class="socials">
-                                            <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Apply</button>
+                                            <button className="card-button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
 
                                         </div>
                                     </div>

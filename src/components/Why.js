@@ -33,7 +33,8 @@ export default function Why() {
                                         <div class="more">
                                             <h4 class="name">Easy Loan</h4>
 
-                                            <p> The only platform for all your surgery care decisions, information and treatment <br /> Search, book and get connected with the quality care around you.</p>
+                                            <p> The only platform for all your surgery care decisions, information and treatment </p>
+                                            <p>    Search, book and get connected with the quality care around you.</p>
                                             <div class="socials">
                                                 <button className="card-button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
 
@@ -54,7 +55,8 @@ export default function Why() {
                                     <div class="more">
                                         <h4 class="name">Online Payment</h4>
 
-                                        <p> The only platform for all your surgery care decisions, information and treatment <br /> Search, book and get connected with the quality care around you.</p>
+                                        <p> The only platform for all your surgery care decisions, information and treatment </p>
+                                        <p>   Search, book and get connected with the quality care around you.</p>
                                         <div class="socials">
                                             <button className="card-button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
 
@@ -76,7 +78,8 @@ export default function Why() {
                                     <div class="more">
                                         <h4 class="name">Insurance</h4>
 
-                                        <p> The only platform for all your surgery care decisions, information and treatment <br /> Search, book and get connected with the quality care around you.</p>
+                                        <p> The only platform for all your surgery care decisions, information and treatment </p>
+                                        <p> Search, book and get connected with the quality care around you.</p>
                                         <div class="socials">
                                             <button className="card-button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
 

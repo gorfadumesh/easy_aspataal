@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from "../assets/Logo/Logo.png"
 import Slider1 from "../assets/Carousel Section/Slider1.jpg"
 import Slider2 from "../assets/Carousel Section/Slider2.jpg"
-
+import ContactForm from './ContactForm';
 export default function NavbarHeader() {
     return (
         <div>
@@ -118,29 +118,48 @@ export default function NavbarHeader() {
             <div className="carousel">
 
                 <Carousel fade>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={Slider1}
-                            alt="First slide"
-                        />
-                        {/* <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption> */}
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={Slider2}
-                            alt="Second slide"
-                        />
+                    <Carousel.Item >
+                        <div className="overlay">
+                            <img
+                                className="d-block w-100 slider "
+                                src={Slider1}
+                                alt="First slide"
+                            />
+                            <div className="overlap-form">
+                                <div className="carosel-text">
+                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Sugery</span>  Bhi <br /> Loan <span style={{ color: "#FB8B4C" }}>Bhi</span></h1></div>
+                                    <div className="carosel-list">
+                                        <li> Covid Safe Hospital</li>
+                                        <li>Instant Medical Finance
+                                            at 0% Interest</li>
+                                    </div>
+                                    <div>
+                                        <button className="carosel-btn" style={{ backgroundColor: "#0C065E" }}>+91 72920 05098</button>
+                                        <button className="carosel-btn" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
 
-                        {/* <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption> */}
+                                    </div>
+                                </div>
+                                {/* <ContactForm /> */}
+
+                            </div>
+
+                        </div>
                     </Carousel.Item>
+
+                    {/* <Carousel.Item>
+                        <div className="overlay">
+                            <img
+                                className="d-block w-100 slider "
+                                src={Slider2}
+                                alt="First slide"
+                            />
+                            <div className="overlap-form">
+
+                            </div>
+
+                        </div>
+
+                    </Carousel.Item> */}
 
                 </Carousel>
             </div>

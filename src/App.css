@@ -425,6 +425,8 @@ hr.line{
   margin: 0 18px 30px 18px;
   line-height: 22px;
   text-align:left;
+  font-size: 22px;
+
 }
 .ourTeam .i .c .more .name {
   margin:30px 0;
@@ -497,6 +499,7 @@ hr.line{
   margin-bottom: 40px;
   /* margin-top: 40px; */
   font-weight: bolder;
+  font-size: 50px;
   color:#0C065E ;
 } 
 .about-heading2{
@@ -684,7 +687,8 @@ font-weight: normal;
   padding: 5px;
 }
 .acordian{
-  margin: 50px 400px 50px 400px;
+  margin: 50px 230px;
+  
 }
 .que-heading{
   text-align: center;
@@ -729,7 +733,7 @@ font-weight: normal;
   height: 50px;
   outline: 0;
   padding: 4px 20px 0;
-  width: 300px ;  
+  width: 400px ;  
 }
 .conver-input-select{
   background-color: white;
@@ -742,13 +746,14 @@ font-weight: normal;
   height: 50px;
   outline: 0;
   padding: 4px 40px 0 20px;
-  width: 300px ;
+  width: 400px ;
 }option{
   color: #000;
 }
 .conv-button{
   font-weight: 700;
   height: 50px;
+  font-size:24px;
   width: 300px auto;
   padding: 5px 50px 5px 50px;
   margin: 0 20px 0 0;
@@ -775,7 +780,8 @@ font-weight: normal;
 }
 .news-card {
   text-align: left;
-  margin: 40px;
+  margin: 40px 20px;
+  
   display: flex;
   padding: 20px;
   background-color: white !important;
@@ -787,7 +793,7 @@ font-weight: normal;
   /* width: 40%; */
 }
 .news-cards{
-  margin: auto;
+  /* margin: auto; */
   display: flex;
 }
 .card-text{
@@ -842,9 +848,17 @@ font-weight: normal;
 }
 .footer-font{
   color: #FB8B4C;
+  font-size:30px;
 
-}li{
+}
+.footer-content  a {
   color: white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.footer-content li{
+  color: white;
+  margin-top:2px;
 
 }
 .footer-last{
@@ -924,4 +938,51 @@ font-weight: normal;
   width: 40px;
   height: 100px;
   color: white;
+}
+
+.overlay{
+  position: relative;
+}
+
+.overlap-form{
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  height: 100px;
+  /* width: 400px; */
+  z-index: 1;
+  color: white;
+}
+#rest-of-page{
+  height: 100px;
+  width: 500px;
+  border: solid 1px gray;
+}
+.carosel-text{
+  margin-top: 100px;
+}
+.care-text{
+  color:#0C065E;
+  font-size: 80px;
+}
+.carosel-list{
+  list-style: none;
+  font-size: 24px;
+  color: #0C065E;
+  margin-bottom: 50px;
+}
+.carosel-btn{
+  font-weight: 700;
+  height: 2.5em;
+  width: auto;
+  padding: 5px 20px ;
+  margin: 0 20px 0 0;
+  color:white;
+  /* background-color: #0C065E; */
+  font-size:30px;
+  border: none;
+  border-radius: 50px;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 0.5em; */
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
 }

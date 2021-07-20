@@ -139,14 +139,12 @@ export default function NavbarHeader() {
 
                                     </div>
                                 </div>
-                                {/* <ContactForm /> */}
 
                             </div>
 
                         </div>
                     </Carousel.Item>
-
-                    {/* <Carousel.Item>
+                    <Carousel.Item >
                         <div className="overlay">
                             <img
                                 className="d-block w-100 slider "
@@ -154,12 +152,26 @@ export default function NavbarHeader() {
                                 alt="First slide"
                             />
                             <div className="overlap-form">
+                                <div className="carosel-text">
+                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Sugery</span>  Bhi <br /> Loan <span style={{ color: "#FB8B4C" }}>Bhi</span></h1></div>
+                                    <div className="carosel-list">
+                                        <li> Covid Safe Hospital</li>
+                                        <li>Instant Medical Finance
+                                            at 0% Interest</li>
+                                    </div>
+                                    <div>
+                                        <button className="carosel-btn" style={{ backgroundColor: "#0C065E" }}>+91 72920 05098</button>
+                                        <button className="carosel-btn" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
+
+                                    </div>
+                                </div>
 
                             </div>
 
                         </div>
+                    </Carousel.Item>
 
-                    </Carousel.Item> */}
+
 
                 </Carousel>
             </div>

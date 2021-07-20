@@ -10,7 +10,7 @@ export default function NavbarHeader() {
     return (
         <div>
             <>
-                <Navbar bg="white" expand="xxl " className="nav-one">
+                <Navbar bg="white" expand="xxl " className="nav">
                     <Container>
 
 

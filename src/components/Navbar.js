@@ -38,7 +38,7 @@ export default function NavbarHeader() {
                     </div>
                 </div>
                 {/* <br /> */}
-                <div className="navbar" >
+                <div className="navbar navbar-c" >
 
 
 

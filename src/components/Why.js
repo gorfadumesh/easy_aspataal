@@ -21,17 +21,18 @@ export default function Why() {
                             <h2>Meet <strong>Our Team</strong></h2>
                         </header> */}
                         <div class="row">
-                            <div class="col-xs-6 col-sm-4 col-md-3 i">
+                            <div class="col-xs-6 col-sm-4  i">
                                 <div className="why-card">
                                     <div class="c text-center">
                                         <div class="wrap">
                                             <img src={Loan} alt="#" width="270" height="270" class="img-responsive" />
                                             <div class="info">
-                                                <h4 class="name">Easy Loan</h4>
                                                 {/* <h4 class="position">Chief Executive Officer</h4> */}
                                             </div>
                                         </div>
                                         <div class="more">
+                                            <h4 class="name">Easy Loan</h4>
+
                                             <p> The only platform for all your surgery care decisions, information and treatment <br /> Search, book and get connected with the quality care around you.</p>
                                             <div class="socials">
                                                 <button className="card-button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
@@ -42,16 +43,17 @@ export default function Why() {
                                 </div>
 
                             </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 i">
+                            <div class="col-xs-6 col-sm-4  i">
                                 <div class="c text-center">
                                     <div class="wrap">
                                         <img src={EasyAssets2} alt="#" width="270" height="270" class="img-responsive" />
                                         <div class="info">
-                                            <h4 class="name">Online Payment</h4>
                                             {/* <h4 class="position">Chief Executive Officer</h4> */}
                                         </div>
                                     </div>
                                     <div class="more">
+                                        <h4 class="name">Online Payment</h4>
+
                                         <p> The only platform for all your surgery care decisions, information and treatment <br /> Search, book and get connected with the quality care around you.</p>
                                         <div class="socials">
                                             <button className="card-button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
@@ -63,16 +65,17 @@ export default function Why() {
 
                         </div>
                         <div class="row">
-                            <div class="col-xs-6 col-sm-4 col-md-3 i">
+                            <div class="col-xs-6 col-sm-4  i">
                                 <div class="c text-center">
                                     <div class="wrap">
                                         <img src={EasyAssets1} alt="#" width="270" height="270" class="img-responsive" />
                                         <div class="info">
-                                            <h4 class="name">Insurance</h4>
                                             {/* <h4 class="position">Chief Executive Officer</h4> */}
                                         </div>
                                     </div>
                                     <div class="more">
+                                        <h4 class="name">Insurance</h4>
+
                                         <p> The only platform for all your surgery care decisions, information and treatment <br /> Search, book and get connected with the quality care around you.</p>
                                         <div class="socials">
                                             <button className="card-button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
@@ -81,17 +84,20 @@ export default function Why() {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-6 col-sm-4 col-md-3 i">
+                            <div class="col-xs-6 col-sm-4  i">
                                 <div class="c text-center">
                                     <div class="wrap">
                                         <img src={EasyAssets3} alt="#" width="270" height="270" class="img-responsive" />
                                         <div class="info">
-                                            <h4 class="name">Self Checking</h4>
                                             {/* <h4 class="position">Chief Executive Officer</h4> */}
                                         </div>
                                     </div>
                                     <div class="more">
-                                        <p> The only platform for all your surgery care decisions, information and treatment <br /> Search, book and get connected with the quality care around you.</p>
+                                        <h4 class="name">Self Checking</h4>
+
+                                        <p> The only platform for all your surgery care decisions, information and treatment</p>
+                                        <p>   Search, book and get connected with the quality care around you.</p>
+
                                         <div class="socials">
                                             <button className="card-button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Nav, Carousel, Button, Navbar, Dropdown, DropdownButton, Container, NavDropdown } from 'react-bootstrap';
 import { BsList } from "react-icons/bs";
+import { FaChevronDown } from "react-icons/fa"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from "../assets/Logo/Logo.png"
 import Slider1 from "../assets/Carousel Section/Slider1.jpg"
@@ -37,84 +38,81 @@ export default function NavbarHeader() {
                     </div>
                 </div>
                 {/* <br /> */}
-                <Navbar className="navbar" variant="dark">
-                    <Container>
+                <div className="navbar" >
 
 
-                        <Nav className="me-auto">
 
-                            <NavDropdown
-                                id="nav-dropdown-basic-example"
-                                title="Eyes"
-                                menuVariant="light"
-                                className="nav-items"
-                            >
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown
-                                id="nav-dropdown-basic-example"
-                                title="Maternity"
-                                menuVariant="light"
-                            >
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown
-                                id="nav-dropdown-basic-example"
-                                title="Nose"
-                                menuVariant="light"
-                            >
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown
-                                id="nav-dropdown-basic-example"
-                                title="Knee"
-                                menuVariant="light"
-                            >
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown
-                                id="nav-dropdown-basic-example"
-                                title="General Surgery"
-                                menuVariant="light"
-                            >
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                            </NavDropdown>
-                            <NavDropdown
-                                id="nav-dropdown-basic-example"
-                                title=" Woman's Care"
-                                menuVariant="light"
-                            >
-                                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                            </NavDropdown>
+                    <div className="nav-drop-down">
+
+                        <div class="dropdown">
+                            <button class="dropbtn">Eyes <FaChevronDown /> </button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="dropbtn">Maternity <FaChevronDown /> </button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Nose <FaChevronDown /></button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Knee <FaChevronDown /></button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">General Surgery <FaChevronDown /></button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Woman's Care <FaChevronDown /></button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div><div class="dropdown">
+                            <button class="dropbtn">Woman's Care <FaChevronDown /></button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div><div class="dropdown">
+                            <button class="dropbtn">Woman's Care <FaChevronDown /> </button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
 
 
-                        </Nav>
-                    </Container>
-                </Navbar>
+
+                    </div>
+
+                </div>
 
             </>
             <div className="carousel">

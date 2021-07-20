@@ -104,21 +104,22 @@
   /* padding: 10px; */
 }
 .search-input{
-  margin: 0 10px 0 0 ;
+  margin: 0 20px 0 0 ;
   min-width: auto;
-  width:  400px ;
-  height: 40px;
-  padding: 10px;
+  width:  600px ;
+  height: 50px;
+  padding: 10px 20px 10px 20px;
   border: none;
   border-radius: 5px;
 }
 .search-button{
     /* height: 3em; */
     width: auto;
-    padding: 5px 25px 5px 25px;
+    width: 200px;
+    padding: 5px 35px 5px 35px;
     margin: 0 20px 0 0;
     color:white;
-    height: 40px;
+    height: 50px;
     /* background-color: #0C065E; */
     border: none;
     border-radius: 50px;
@@ -130,7 +131,7 @@
   width: 10% auto;
   text-align: center;
   margin: auto;
-  width: 50%;
+  /* width: 50%; */
   /* border: 3px solid green; */
   padding: 20px;
 
@@ -165,6 +166,7 @@
 }
 .cards{
   display:flex;
+  height: 600px ;
 }
 .apply_card{
   display: inline;
@@ -188,7 +190,7 @@
   font-family: arial;
 }
 .apl-card-text{
-  padding: 20px 0px 0px 10px ;
+  padding: 20px 5px 0px 5px ;
 }
 .apl-card-img{
   margin-top: -180px;

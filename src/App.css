@@ -289,6 +289,7 @@ margin-top: 40px;
   justify-content: space-evenly;
 }
 .sur-list{
+  cursor: pointer;
   margin: 40px;
   display: flex;
 }
@@ -296,6 +297,9 @@ margin-top: 40px;
 .sur-image{
   width: 130px;
   margin: auto;
+}
+.sur-list img:hover + h5 {
+  font-size: 40px;
 }
 .sur-text{
   font-size: 30px;

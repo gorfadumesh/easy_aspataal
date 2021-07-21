@@ -117,7 +117,7 @@ export default function NavbarHeader() {
             </>
             <div className="carousel">
 
-                <Carousel fade >
+                <Carousel fade nextLabel="" prevLabel="">
                     <Carousel.Item >
                         <div className="overlay">
                             <img

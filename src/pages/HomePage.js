@@ -1,6 +1,5 @@
 import React from 'react'
 import NavbarHeader from "../components/Navbar"
-import homeCarousel from "../components/Carousel"
 import SearchBar from "../components/SearchBar"
 import ApplyCards from "../components/ApplyCards"
 import Surgeries from "../components/Surgeries"
@@ -18,7 +17,6 @@ export default function HomePage() {
     return (
         <div>
             <NavbarHeader />
-            <homeCarousel />
             <SearchBar />
             <ApplyCards />
             <Surgeries />

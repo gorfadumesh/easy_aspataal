@@ -72,10 +72,10 @@ export default function Footer() {
                                 <input placeholder="Enter Email Address" className="footer-input"></input>
                                 <button className="footer-button" >Sign Up</button>
                             </div>
-                            <h5 className="footer-font1" style={{ color: "white" }}>By signing up , i agree to the <span style={{ color: "#FB8B4C" }}>terms and condition </span> and to receive emails.</h5>
+                            <h5 className="footer-font1" style={{ color: "white" }}>By signing up , i agree to the <span style={{ color: "#FB8B4C", cursor: "pointer" }}>terms and condition </span> and to receive emails.</h5>
 
                         </div>
-                        <div className="footer-part">
+                        <div className="footer-part2">
                             <h2 className="footer-font">Follows Us on</h2>
                             <br />
                             <div > < FaFacebook className="social-media" /><FaTwitter className="social-media" />< FaLinkedinIn className="social-media" /><FaInstagram className="social-media" /></div>

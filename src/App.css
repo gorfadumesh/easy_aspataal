@@ -196,8 +196,8 @@
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
-  width: 700px;
-  height: 400px auto;
+  width: 600px;
+  height: 550px ;
   margin: 45px;
   text-align: center;
   font-family: arial;
@@ -206,9 +206,14 @@
   justify-content: center;
 }
 .apl-card-text{
-  padding: 30px 5px 0px 5px ;
+  padding: 0px 5px 0px 5px ;
 }
-.apl-card-img{
+.apl-card-img1{
+  width: 250px;
+  margin-top: -180px;
+}
+.apl-card-img2{
+  width: 190px;
   margin-top: -180px;
 }
 .apl-card-heading{
@@ -218,10 +223,11 @@
   border-bottom: 2px solid #FB8B4C;
 }
 .apl-card-heading2{
-  margin-top: 30px;
+  font-size: 32px;
+  margin-top: 50px;
   text-align: left;
   color:#0C065E ;
-  font-weight: bold;
+  font-weight: normal;
 }
 .apl-card-p{
   margin-top: 10px;
@@ -251,8 +257,8 @@
 
 .surgeries{
   align-items: center;
-  background-color:#E2ECF9!important;
-  height: auto;
+  background-color:#eeebfb!important;
+  height: 400px;
   margin: auto;
   /* width: 50%; */
   padding-top: 5px;
@@ -282,10 +288,19 @@ margin-top: 40px;
   margin-top: 30px;
   justify-content: space-evenly;
 }
+.sur-list{
+  margin: 40px;
+  display: flex;
+}
 
 .sur-image{
   width: 130px;
   margin: auto;
+}
+.sur-text{
+  font-size: 30px;
+  margin-top: 15px;
+  color: #0C065E
 }
 .why{
   text-align: center;
@@ -602,7 +617,7 @@ font-weight: normal;
   border-radius: 12px;
   border: 1px solid;
   box-sizing: border-box;
-  color: #eee;
+  color: black;
   font-size: 18px;
   height: 100%;
   outline: 0;
@@ -707,6 +722,10 @@ font-weight: normal;
   padding: 5px;
 }h5{
   color: grey;
+  
+}
+.speciality{
+  cursor: pointer;
 }
 .spec-font{
   font-weight: bolder;
@@ -806,6 +825,7 @@ font-weight: normal;
   font-weight: 500 !important;
 }
 .read-more{
+  cursor: pointer;
   padding-right: 50px !important;
   text-align: right;
   font-weight: 700 !important;
@@ -836,11 +856,21 @@ font-weight: normal;
   padding: 40px;
   background-color:#0C065E ;
 }
+.footer-content a{
+  cursor: pointer;
+}
 .footer-part{
   text-align: center;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  /* width: 50%; */
+}
+.footer-part2{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* width: 50%; */
+  padding-left: 20%;
 }
 .footer2-content{
   margin: 10px 30px 0 30px;
@@ -934,6 +964,7 @@ font-weight: normal;
   justify-content: center;
 }
 .social-media{
+  cursor: pointer;
   margin: 10px;
   width: 40px;
   height: 100px;

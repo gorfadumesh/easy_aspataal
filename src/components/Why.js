@@ -10,7 +10,7 @@ export default function Why() {
         <div className="why">
             <h1>WHY CHOOSE  Easy<span>Aspataal</span></h1>
             <hr className="line" />
-            <h4>"Bulding a Better India For Patient"</h4>
+            <h4>"Building a Better India For Patient"</h4>
 
             <div>
                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />

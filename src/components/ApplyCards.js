@@ -11,23 +11,23 @@ export default function ApplyCards() {
             <div className="cards">
 
                 <div class="card">
-                    <div><img src={Plan} alt="image" className="apl-card-img" /></div>
+                    <div><img src={Plan} alt="image" className="apl-card-img1" /></div>
                     <div className="apl-card-text">  <h1 className="apl-card-heading">Plan a Surgery</h1>
                         <h4 className="apl-card-heading2"  >Looking for a treatment ?</h4>
                         <h4 className="apl-card-p">Find your surgery price and plan your treatment inyour nearest Hospital</h4>
 
                     </div>
-                    <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Search</button>
+                    <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
 
                 </div>
                 <div class="card">
-                    <div><img src={Finance} alt="image" className="apl-card-img" /></div>
+                    <div><img src={Finance} alt="image" className="apl-card-img2" /></div>
                     <div className="apl-card-text">  <h1 className="apl-card-heading">Finance Your Surgery</h1>
                         <h4 className="apl-card-heading2"  >Worried About Medical Expenses</h4>
                         <h4 className="apl-card-p">Find your surgery price<br />  and plan your treatment in<br /> your nearest Hospital</h4>
 
                     </div>
-                    <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Search</button>
+                    <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
                 </div>
 
 

@@ -34,10 +34,7 @@ div{
   cursor: pointer;
 }
 
-.dropdown {
-  /* position: relative;
-  display: inline-block; */
-}
+
 
 .dropdown-content {
   display: none;
@@ -127,7 +124,6 @@ div{
 .search-button{
     /* height: 3em; */
     font-weight: 600;
-    width: auto;
     width: 200px;
     padding: 5px 35px 5px 35px;
     margin: 0 20px 0 0;
@@ -1040,4 +1036,48 @@ font-weight: normal;
   /* text-transform: uppercase; */
   /* letter-spacing: 0.5em; */
   transition: all 0.2s cubic-bezier(.4,0,.2,1);
+}
+
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .nav-one {
+    display: block;
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
+  }
+  .logo{
+    width: 200px !important;
+  }
+  .nav-drop-down{
+    display: block;
+  }
+  .search-input, .search-bar-inner, .search-button{
+    height: auto;
+    width: auto;
+  }
+  .recent-search{
+    display: block;
+    margin: auto;
+  }
+  .apply-cards, .cards {
+    height: auto;
+    width: auto;
+    display: block;
+  }
+  .card {
+    height: 950px auto;
+    width: auto;
+    margin:50px 0 0 0  ;
+    padding: auto;
+  }
+  .apl-card-img1, .apl-card-img2{
+    width: 200px;
+    margin: 0;
+  }
+  .card button{
+    height: auto;
+    width: auto;
+  }
 }

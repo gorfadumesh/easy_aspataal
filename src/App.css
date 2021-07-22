@@ -1055,7 +1055,7 @@ font-weight: normal;
   }
   .search-input, .search-bar-inner, .search-button{
     height: auto;
-    width: auto;
+    width: 300px;
   }
   .recent-search{
     display: block;
@@ -1079,5 +1079,24 @@ font-weight: normal;
   .card button{
     height: auto;
     width: auto;
+  }
+
+
+  .sur-list, .surgeries  {
+    display: block;
+    height: auto;
+    
+   
+  }
+  .about_us{
+    display:block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color:white!important;
+    
+    /* padding: 0px 30px 40px 30px; */
+    height: auto;
+  
   }
 }

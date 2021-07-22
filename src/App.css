@@ -1,4 +1,8 @@
 
+div{
+  font-family: campton;
+
+}
 .nav-one{
   
   align-items: center;
@@ -72,7 +76,7 @@
 }
 .navbar-c{
   display: block !important;
-  height: 60px;
+  /* height: 60px; */
   /* justify-content: center !important; */
   background-color: #0C065E;
 }
@@ -189,18 +193,18 @@
 }
 
 .card {
-  justify-content: space-between;
+  justify-content: space-around;
   border: 0 !important;
   border-radius: 20px !important;
   background-color: #E2ECF9!important;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
-  width: 600px;
+  width: 700px;
   height: 550px ;
-  margin: 45px;
+  margin: 35px;
   text-align: center;
-  font-family: arial;
+  
 }
 .card-inner{
   justify-content: center;
@@ -210,14 +214,14 @@
 }
 .apl-card-img1{
   width: 250px;
-  margin-top: -180px;
+  margin-top: -160px;
 }
 .apl-card-img2{
   width: 190px;
   margin-top: -180px;
 }
 .apl-card-heading{
-  
+  font-size: 35px;
   color:#0C065E ;
   font-weight: bolder;
   border-bottom: 2px solid #FB8B4C;
@@ -448,6 +452,8 @@ hr.line{
 
 }
 .ourTeam .i .c .more .name {
+  font-weight: bolder;
+
   margin:30px 0;
   font-size: 34px;
 }
@@ -982,7 +988,7 @@ font-weight: normal;
 .overlap-form{
   position: absolute;
   top: 50px;
-  right: 200px;
+  right: 150px;
   height: 100px;
   /* width: 400px; */
   z-index: 1;
@@ -997,6 +1003,8 @@ font-weight: normal;
   margin-top: 100px;
 }
 .care-text{
+  font-weight: bolder;
+
   color:#0C065E;
   font-size: 80px;
 }

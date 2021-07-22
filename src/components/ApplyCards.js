@@ -17,7 +17,8 @@ export default function ApplyCards() {
                         <h4 className="apl-card-p">Find your surgery price and plan your treatment inyour nearest Hospital</h4>
 
                     </div>
-                    <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
+                    <div>  <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button></div>
+
 
                 </div>
                 <div class="card">
@@ -27,7 +28,8 @@ export default function ApplyCards() {
                         <h4 className="apl-card-p">Find your surgery price<br />  and plan your treatment in<br /> your nearest Hospital</h4>
 
                     </div>
-                    <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
+                    <div> <button className="button" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button></div>
+
                 </div>
 
 

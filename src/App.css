@@ -193,7 +193,7 @@ div{
 }
 
 .card {
-  justify-content: space-between;
+  /* justify-content: space-between; */
   border: 0 !important;
   border-radius: 20px !important;
   background-color: #E2ECF9!important;
@@ -210,6 +210,7 @@ div{
   justify-content: center;
 }
 .apl-card-text{
+  margin-top: 60px;
   
   /* padding: 0px 5px 0px 5px ; */
 }
@@ -252,7 +253,7 @@ div{
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 50%;
+  width: 200px;
   font-size: 18px;
 }
 

@@ -1067,7 +1067,7 @@ font-weight: normal;
     display: block;
   }
   .card {
-    height: 950px auto;
+    height: 950px ;
     width: auto;
     margin:50px 0 0 0  ;
     padding: auto;

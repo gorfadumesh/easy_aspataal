@@ -12,7 +12,7 @@ export default function Process() {
     return (
         <div className="our-process">
             <div className="surgery-content">
-                <h1>Our Process</h1>
+                <p className="process-title1">Our Process</p>
 
                 <div className="surgery-list">
                     <Container>

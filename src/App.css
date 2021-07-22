@@ -323,6 +323,10 @@ margin-top: 40px;
   /* width: 50%; */
   padding: 5px;
 }
+.why h1{
+  font-weight: 600;
+  font-size: 50px;
+}
 .why-card{
   /* width: 50%; */
 }
@@ -347,9 +351,9 @@ margin-top: 40px;
 color: #5032D5;
 }
 hr.line{
-  margin-left: 50%;
+  margin-left: 46%;
   width:10%;
-  border: 5px solid black;
+  border: 5px solid #0C065E;
   border-radius: 5px;
 }
 /* body{margin-top:20px;} */
@@ -488,6 +492,11 @@ hr.line{
   padding: 40px;
   
 
+}
+.process-title1{
+  font-size: 50px;
+  font-weight: bold;
+  color:#0C065E !important; 
 }
 .process-title{
   font-weight: bold;

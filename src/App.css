@@ -193,7 +193,7 @@ div{
 }
 
 .card {
-  /* justify-content: space-between; */
+  justify-content: space-between;
   border: 0 !important;
   border-radius: 20px !important;
   background-color: #E2ECF9!important;

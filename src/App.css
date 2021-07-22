@@ -210,14 +210,15 @@ div{
   justify-content: center;
 }
 .apl-card-text{
+  
   /* padding: 0px 5px 0px 5px ; */
 }
 .apl-card-img1{
-  width: 250px;
+  width: 260px;
   margin-top: -160px;
 }
 .apl-card-img2{
-  width: 190px;
+  width: 180px;
   margin-top: -160px;
 }
 .apl-card-heading{

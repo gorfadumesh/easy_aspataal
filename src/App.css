@@ -465,7 +465,9 @@ hr.line{
 .ourTeam .i .c .more .socials {
     margin: 0 0 20px 0
 }
-
+.more p{
+  color: white !important;
+}
 
 
 

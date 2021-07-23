@@ -12,10 +12,12 @@ import Speciality from "../components/Speciality"
 import Conversation from "../components/Conversation"
 import News from "../components/News"
 import Footer from "../components/Footer"
+import NavbarOne from "../components/NavbarOne"
 
 export default function HomePage() {
     return (
         <div>
+            <NavbarOne />
             <NavbarHeader />
             <SearchBar />
             <ApplyCards />

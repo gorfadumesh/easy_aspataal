@@ -1,6 +1,5 @@
 import React from 'react'
 import { Card, Button, CardGroup } from "react-bootstrap"
-import apply_card1 from "../assets/images/apply_card1.png"
 import Finance from "../assets/Plan A Surgery Section/Finance.png"
 import Plan from "../assets/Plan A Surgery Section/Plan.png"
 

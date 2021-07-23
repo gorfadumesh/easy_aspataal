@@ -298,7 +298,7 @@ margin-top: 40px;
 }
 
 .sur-image{
-  width: 130px;
+  width: 115px;
   margin: auto;
 }
 .sur-list img:hover + h5 {
@@ -349,7 +349,8 @@ color: #5032D5;
 hr.line{
   margin-left: 46%;
   width:10%;
-  border: 5px solid #0C065E;
+  border: 5px solid #0C065E !important;
+  background-color:#0C065E !important ;
   border-radius: 5px;
 }
 /* body{margin-top:20px;} */
@@ -549,6 +550,7 @@ font-weight: normal;
 .say-hello{
   
   background-color:#0C065E ;
+  height: 700px;
   /* min-height:  686px ; */
 }
 .hello-container{
@@ -559,9 +561,9 @@ font-weight: normal;
 
 }
 .hello-image{
-  margin-top: -130px;
-  margin-left: -180px;
-  /* width: 600px; */
+  margin-top: -110px;
+  margin-left: -140px;
+  width: 635px;
 }
 .hello-inner{
   /* width: 50%; */
@@ -569,7 +571,8 @@ font-weight: normal;
 }
 .hello-text{
   /* width: auto; */
-  margin: 50px;
+  margin-top: 50px;
+  margin-left: -165px;
   text-align: center;
 }.h1{
   font-size: 80px;
@@ -699,7 +702,7 @@ font-weight: normal;
   cursor: pointer;
   font-size: 18px;
   height: 50px;
-  margin-top: 38px;
+  margin-top: 20px;
      outline: 0;
   text-align: center;
   width: 100%;
@@ -878,7 +881,7 @@ font-weight: normal;
   cursor: pointer;
 }
 .footer-part{
-  text-align: center;
+  /* text-align: center; */
   justify-content: center;
   align-items: center;
   /* width: 50%; */
@@ -887,7 +890,7 @@ font-weight: normal;
   text-align: center;
   justify-content: center;
   align-items: center;
-  /* width: 50%; */
+  width: 50%;
   padding-left: 20%;
 }
 .footer2-content{
@@ -953,17 +956,22 @@ font-weight: normal;
   border: 1px solid;
   box-sizing: border-box;
   font-size: 18px;
-  margin: 20px;
+  margin-top: 10px;
+  /* margin: 20px; */
   height: 60px;
   outline: 0;
   padding: 4px 40px 0 20px;
   width: 400px  ;
 }
+.footer-part h5{
+  margin-top: 10px;
+  font-weight: normal;
+}
 .footer-button{
   width: auto;
   height: 60px;
   border: 2px solid #FB8B4C !important;
-
+  margin-left: 30px !important;
   padding: 5px 70px 5px 70px;
   margin: 0 20px 0 0;
   color:white;
@@ -1037,6 +1045,254 @@ font-weight: normal;
   /* letter-spacing: 0.5em; */
   transition: all 0.2s cubic-bezier(.4,0,.2,1);
 }
+
+/* Speciality Page */
+
+.banner-img{
+  position: relative;
+}
+
+.banner-content{
+  /* display: flex; */
+  margin-left: 60px;
+  position: absolute;
+  top: 200px;
+  right: 150px;
+  height: 100px;
+  /* width: 400px; */
+  z-index: 1;
+  color: black;
+}
+.banner-bg{
+  width: -webkit-fill-available !important;
+
+}
+.banner-content img{
+  
+
+justify-content: center;
+  width: 470px;
+}
+
+.banner-inner{
+  display: flex;
+  /* justify-content: flex-start; */
+
+}
+.banner-heading{
+  font-size: 50px !important;
+  font-weight: bold;
+  color: #0C065E ;
+}
+.banner-part a{
+  color: black !important;
+  font-size: 24px;
+}p{
+  font-size: 20px;
+  color: black;
+}li{
+  font-size: 20px;
+}
+.banner-part{
+  text-align: left;
+  font-size: 24px;
+  margin: 20px 0 0 0px;
+}
+.page-path{
+  font-size: 20px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+.banner-part li{
+  float: left;
+}
+.amount{
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+}
+.amount p{
+  font-weight: bold;
+  color:#5032d5 ;
+}
+.amount li{
+  font-weight: 550;
+  color: #0C065E ;
+}
+.banner-btn{
+  font-weight: 600;
+  height: 3em;
+  width: auto;
+  padding: 5px 25px 5px 25px;
+  margin: 0 20px 0 0;
+  color:white;
+  background-color: #0C065E;
+  border: none;
+  border-radius: 50px;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 0.5em; */
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+}
+.price-tag1{
+  text-decoration-line: line-through; 
+  color: grey;
+  font-size: 30px !important;
+  font-weight: 500;
+}
+.price-tag2{
+  font-weight: bold;
+  color: #FB8B4C;
+  font-size: 30px !important;
+}
+
+.best-hospital{
+  /* height: 500px; */
+}
+.hospital-cards{
+  display:flex;
+  margin: 40px;
+}
+.hospital-card-image{
+  height: 160px;
+}
+.hospital-logo{
+  width: 150px ;
+  /* max-width: 150px auto; */
+}
+.hospital-card-p{
+  font-size: 20px !important;
+  text-align: left;
+}
+.hospital-card {
+  /* justify-content: space-between; */
+  border: 0 !important;
+  border-radius: 40px !important;
+  background-color: #eeebfb!important;
+  align-items: center;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2) ;
+  padding: 20px;
+  width: 1000px;
+  height: 400px;
+  margin: 15px;
+  text-align: center;
+  
+}
+.card-footer-text{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+.footer-font1{
+  font-weight: bolder;
+  font-size: 30px;
+  color: #FB8B4C;
+}
+.footer-font2{
+  margin-left: 10px;
+  text-align: left;
+  font-weight: bold;
+  color:#0C065E ;
+  font-size: 15px;
+}
+
+.common-symptoms{
+  display: flex;
+  /* height: 300px; */
+}
+.common-image{
+  margin-left: 70px;
+  /* margin-top: 70px; */
+  width: 950px;
+}
+.common-part{
+  text-align: center;
+  margin-top: 100px;
+  margin-right: 50px;
+  width: 50%;
+}
+.common-text p{
+  color: grey !important;
+  font-weight: bold;
+  text-align: left;
+}
+.common-text li{
+  
+  text-align: left;
+}
+.common-heading{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 49px;
+  font-weight: bolder;
+  color: #0C065E ;
+}
+.treatment{
+  height: 500px;
+}
+.treatment-tab{
+  background-color:#EEEBFB ;
+  height: 260px;
+  margin: 50px;
+  /* border: 1px solid black; */
+  box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+}
+.treatment-tab p{
+  padding: 20px;
+  margin-top: -17px;
+  height: 220px;
+  background-color: white;
+}
+.opinion{
+  background-color:#0C065E;
+  height: 250px;
+}
+.opinion-heading{
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  color: white;
+}
+.opinion-body{
+  /* justify-content: center; */
+  margin: auto;
+  width: 60%;
+  /* border: 3px solid green; */
+  /* padding: 10px; */
+}
+.opinion-input{
+  background-color: white;
+  border-radius: 12px;
+  border: 1px solid;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  margin: 20px;
+  height: 50px;
+  outline: 0;
+  padding: 4px 20px 0;
+  /* width: 400px ;   */
+}
+.opnion-button{
+  font-weight: 700;
+  height: 50px;
+  font-size:24px;
+  width: 250px auto;
+  padding: 5px 50px 5px 50px;
+  margin: 20px;
+
+  /* margin: 0 20px 0 0; */
+  color:white;
+  /* background-color: #0C065E; */
+  border: none;
+  border-radius: 50px;
+  /* text-transform: uppercase; */
+  /* letter-spacing: 0.5em; */
+  transition: all 0.2s cubic-bezier(.4,0,.2,1);
+}
+
+
+
+
 
 
 @media only screen and (max-width:500px) {

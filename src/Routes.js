@@ -18,7 +18,7 @@ export default function Routes() {
                 <Route exact path="/"  >
                     <HomePage />
                 </Route>
-                <Route exact path="/Speciality"  >
+                <Route exact path="/speciality"  >
                     <SpecialityPage />
                 </Route>
 

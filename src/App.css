@@ -1,5 +1,68 @@
-div {
-  font-family: campton;
+@font-face {
+  font-family: "CamptonBold";
+  src: local("CamptonBold"), url("./fonts/CamptonBold.otf") format("woff");
+  /* url('./fonts/CustomFont1Name.woff2') format('woff2'); */
+}
+@font-face {
+  font-family: "CamptonMedium";
+  src: local("CamptonMedium"), url("./fonts/CamptonMedium.otf") format("woff");
+  /* url('./fonts/CustomFont1Name.woff2') format('woff2'); */
+}
+@font-face {
+  font-family: "CamptonBlack";
+  src: local("CamptonBlack"), url("./fonts/CamptonBlack.otf") format("woff");
+  /* url('./fonts/CustomFont1Name.woff2') format('woff2'); */
+}
+@font-face {
+  font-family: "CamptonBlackItalic";
+  src: local("CamptonBlackItalic"),
+    url("./fonts/CamptonBlackItalic.otf") format("woff");
+}
+@font-face {
+  font-family: "CamptonBoldItalic";
+  src: local("CamptonBoldItalic"),
+    url("./fonts/CamptonBoldItalic.otf") format("woff");
+}
+@font-face {
+  font-family: "CamptonBook";
+  src: local("CamptonBook"), url("./fonts/CamptonBook.otf") format("woff");
+}
+@font-face {
+  font-family: "CamptonBookItalic";
+  src: local("CamptonBookItalic"),
+    url("./fonts/CamptonBookItalic.otf") format("woff");
+}
+@font-face {
+  font-family: "CamptonExtraBold";
+  src: local("CamptonExtraBold"),
+    url("./fonts/CamptonExtraBold.otf") format("woff");
+}
+@font-face {
+  font-family: "CamptonExtraBoldItalic";
+  src: local("CamptonExtraBoldItalic"),
+    url("./fonts/CamptonExtraBoldItalic.otf") format("woff");
+}
+@font-face {
+  font-family: "CamptonExtraLight";
+  src: local("CamptonExtraLight"),
+    url("./fonts/CamptonExtraLight.otf") format("woff");
+}
+@font-face {
+  font-family: "CamptonLight";
+  src: local("CamptonLight"), url("./fonts/CamptonLight.otf") format("woff");
+}
+@font-face {
+  font-family: "CamptonSemiBold";
+  src: local("CamptonSemiBold"),
+    url("./fonts/CamptonSemiBold.otf") format("woff");
+}
+@font-face {
+  font-family: "CamptonThin";
+  src: local("CamptonThin"), url("./fonts/CamptonThin.otf") format("woff");
+}
+
+* {
+  font-family: CamptonMedium;
 }
 .nav-one {
   align-items: center;
@@ -17,6 +80,7 @@ div {
 .nav-text {
   color: black;
   font-weight: 650;
+  font-family: CamptonMedium;
 }
 .dropbtn {
   background-color: #0c065e;
@@ -79,6 +143,7 @@ div {
   width: 300px !important;
 }
 .button {
+  font-family: CamptonBold;
   font-weight: 600;
   height: 3em;
   width: auto;

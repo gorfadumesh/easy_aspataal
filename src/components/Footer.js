@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Container } from "react-bootstrap"
+import { Row, div, Container } from "react-bootstrap"
 import Whit_Logo from "../assets/Logo/Whit_Logo.png"
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa"
 
@@ -14,10 +14,10 @@ export default function Footer() {
             <div className="footer">
                 {/* <h1 className="about-heading"> Our Company</h1> */}
 
-                <Container className="footer-content">
+                <div className="footer-content">
                     <img className="logo" src={Whit_Logo} alt="logo" />
-                    <Row>
-                        <Col >
+                    <div className="footer-list">
+                        <div >
 
                             <li  >  <h3 className="footer-font" >Our Company</h3> </li>
                             <li  >  <a style={{ color: "white" }} >About Us</a> </li>
@@ -26,8 +26,8 @@ export default function Footer() {
                             <li  >  <a>Careers</a> </li>
                             <li  >  <a>Call Us Now</a> </li>
 
-                        </Col>
-                        <Col>
+                        </div>
+                        <div>
                             <li  >  <h3 className="footer-font">Patient Take Action</h3> </li>
                             <li  >  <a>Request for Surgery</a> </li>
                             <li  >  <a>Apply for EasyLoan</a> </li>
@@ -40,28 +40,28 @@ export default function Footer() {
                             <li  >  <a>Read Blog</a> </li>
                             <li  >  <a>Refer a Patients</a> </li>
 
-                        </Col>
-                        <Col>
+                        </div>
+                        <div>
                             <li  >  <h3 className="footer-font"> For Hospital</h3> </li>
                             <li  >  <a>Partner with us</a> </li>
                             <li  >  <a>FaQs</a> </li>
                             <li  >  <a>Patient PreChekin</a> </li>
                             <li  >  <a>Need a Technology Help</a> </li>
 
-                        </Col>
-                        <Col>
+                        </div>
+                        <div>
                             <li  >  <h3 className="footer-font">For Corporates</h3> </li>
                             <li  >  <a>Partner with us</a> </li>
                             <li  >  <a>FaQs</a> </li>
                             <li  >  <a>Patient PreChekin</a> </li>
                             <li  >  <a>Need a Technology Help</a> </li>
 
-                        </Col>
+                        </div>
 
 
-                    </Row>
+                    </div>
 
-                </Container>
+                </div>
                 <hr className="footer-divider" />
                 <div className="footer2">
                     <div className="footer2-content" >
@@ -77,7 +77,6 @@ export default function Footer() {
                         </div>
                         <div className="footer-part2">
                             <h2 className="footer-font">Follows Us on</h2>
-                            <br />
                             <div > < FaFacebook className="social-media" /><FaTwitter className="social-media" />< FaLinkedinIn className="social-media" /><FaInstagram className="social-media" /></div>
 
                         </div>

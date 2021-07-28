@@ -1,7 +1,8 @@
 import React from "react";
 import HomePage from "./pages/HomePage"
 import SpecialityPage from "./pages/SpecialityPage"
-import HospitalList from "./pages/HospitalList"
+import HospitalSearch from "./pages/HospitalSearch"
+import HospitalListing from "./pages/HospitalListing"
 
 import {
     BrowserRouter as Router,
@@ -19,13 +20,18 @@ export default function Routes() {
                 <Route exact path="/"  >
                     <HomePage />
                 </Route>
+
                 <Route exact path="/speciality"  >
                     <SpecialityPage />
                 </Route>
-                <Route exact path="/HospitalList"  >
-                    <HospitalList />
+
+                <Route exact path="/HospitalSearch"  >
+                    <HospitalSearch />
                 </Route>
 
+                <Route exact path="/HospitalListing"  >
+                    <HospitalListing />
+                </Route>
             </Switch>
         </Router>
     );

@@ -1,7 +1,7 @@
 import React from 'react'
 import Banner_BG from "../assets/Speciality Page Asset/Banner_BG.png"
 import Cardiology_Speciality_Page_Ass from "../assets/Speciality Page Asset/Cardiology_Speciality_Page_Ass.png"
-import { MdLocalPhone } from "react-icons/md"
+import { MdLocalPhone, MdKeyboardArrowRight } from "react-icons/md"
 
 export default function Banner() {
     return (
@@ -11,7 +11,7 @@ export default function Banner() {
 
             </div>
             <div className="banner-content">
-                <div className="page-path"> <a > Home > </a>  <a > Cardiology > </a>  <a style={{ color: "#FB8B4C" }} > Angiography (Day Care) </a></div>
+                <div className="page-path"> <a > Home <MdKeyboardArrowRight /> </a>  <a > Cardiology <MdKeyboardArrowRight /> </a>  <a style={{ color: "#FB8B4C" }} > Angiography (Day Care) </a></div>
 
                 <div className="banner-inner" >
 

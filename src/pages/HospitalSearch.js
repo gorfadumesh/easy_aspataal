@@ -5,9 +5,10 @@ import HospitalListing from "../components/HospitalListing"
 import BestHospital from "../components/BestHospital"
 import Footer from "../components/Footer"
 
-export default function HospitalList() {
+export default function HospitalSearch() {
     return (
         <div>
+
             <NavbarOne />
             <SearchHospital />
             <HospitalListing />

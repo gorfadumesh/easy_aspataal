@@ -1359,14 +1359,23 @@ li {
   height: 250px;
 }
 .opinion-heading {
+  padding-top: 20px;
   font-size: 50px;
   font-weight: bolder;
   text-align: center;
   color: white;
 }
 .opinion-body {
+  display: flex;
   text-align: center;
-  margin: auto;
+  /* margin: auto; */
+}
+.opinion-body img {
+  width: 550px;
+  margin-top: -228px;
+}
+.opinion-form {
+  margin-left: -170px;
 }
 .opinion-input {
   background-color: white;
@@ -1379,7 +1388,7 @@ li {
   height: 50px;
   outline: 0;
   padding: 4px 20px 0;
-  /* width: 400px ;   */
+  width: 350px;
 }
 .opnion-button {
   font-weight: 700;

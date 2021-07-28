@@ -17,7 +17,7 @@ export default function NavbarOne() {
                     </div>
                     <div className="nav-menu" >
 
-                        <Nav.Link href="#home"><h5 style={{ color: "#0C065E" }} className="nav-text">Home</h5></Nav.Link>
+                        <Nav.Link href="/"><h5 style={{ color: "#0C065E" }} className="nav-text">Home</h5></Nav.Link>
                         &emsp;
 
                         <Nav.Link href="#features"><h5 className="nav-text">For Hospital</h5></Nav.Link>

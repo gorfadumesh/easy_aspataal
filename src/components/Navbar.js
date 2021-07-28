@@ -101,7 +101,7 @@ export default function NavbarHeader() {
                             />
                             <div className="overlap-form">
                                 <div className="carosel-text">
-                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Sugery</span>  Bhi <br /> Loan <span style={{ color: "#FB8B4C" }}>Bhi</span></h1></div>
+                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Surgery</span>  Bhi <br /> Loan <span style={{ color: "#FB8B4C" }}>Bhi</span></h1></div>
                                     <div className="carosel-list">
                                         <li> Covid Safe Hospital</li>
                                         <li>Instant Medical Finance

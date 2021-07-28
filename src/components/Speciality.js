@@ -9,9 +9,9 @@ export default function Speciality() {
             <Container>
                 <Row>
                     <Col>
-                        <a  >  <h3 className="spec-font" style={{ color: "#0C065E" }}>Speciality 1</h3> </a>
-                        <a  >  <h5>Hyteroscopy</h5> </a>
-                        <a  >  <h5>Hyteroscopy</h5> </a>
+                        <a  >  <h3 className="spec-font" style={{ color: "#0C065E" }}>Cardiology </h3> </a>
+                        <a href="./speciality" >  <h5>Angiography(Day Care)</h5> </a>
+                        <a  >  <h5>Angiography With Angioplasty</h5> </a>
                         <a  >  <h5>Hyteroscopy</h5> </a>
                         <a  >  <h5>Hyteroscopy</h5> </a>
                         <a  >  <h5>Hyteroscopy</h5> </a>

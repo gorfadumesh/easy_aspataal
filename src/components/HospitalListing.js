@@ -2,6 +2,7 @@ import React from 'react'
 import hospital from "../assets/Speciality Page Asset/hospital.png"
 import image1 from "../assets/Hospital Search Asset/image1.png"
 import iso from "../assets/Hospital Search Asset/iso.png"
+import Filter from "../assets/Hospital Search Asset/Filter.png"
 
 
 
@@ -26,7 +27,7 @@ export default function HospitalListing() {
 
                     </div>
                 </div>
-                <hr />
+                <hr className="hospital-list-line" />
                 <div className="hospital-list-card">
                     <img src={image1} alt="Avatar" className="hospital-card-img" />
                     <div className="hospital-card-text">
@@ -43,7 +44,7 @@ export default function HospitalListing() {
 
                     </div>
                 </div>
-                <hr />
+                <hr className="hospital-list-line" />
                 <div className="hospital-list-card">
                     <img src={image1} alt="Avatar" className="hospital-card-img" />
                     <div className="hospital-card-text">
@@ -60,7 +61,7 @@ export default function HospitalListing() {
 
                     </div>
                 </div>
-                <hr />
+                <hr className="hospital-list-line" />
                 <div className="hospital-list-card">
                     <img src={image1} alt="Avatar" className="hospital-card-img" />
                     <div className="hospital-card-text">
@@ -80,15 +81,17 @@ export default function HospitalListing() {
 
             </div>
 
-            <div classNamed="hostel-list-filter">
-                <p>Filter</p>
-                <hr />
-                <p>Most Recommended</p>
-                <p>Low in Price</p>
-                <p>High in Price</p>
-                <p>ISO Certified</p>
-                <p>Highest Rated Hospitals</p>
-
+            <div>
+                <div className="hospital-list-filter">
+                    <p className="filter-title"> <img src={Filter} className="filter-img" />Filter</p>
+                    <hr />
+                    <p className="filter-font">SORT BY</p>
+                    <p className="filter-list-font">  <input type="checkbox" ></input> Most Recommended</p>
+                    <p className="filter-list-font">  <input type="checkbox" ></input> Low in Price</p>
+                    <p className="filter-list-font">  <input type="checkbox" ></input> High in Price</p>
+                    <p className="filter-list-font">  <input type="checkbox" ></input> ISO Certified</p>
+                    <p className="filter-list-font">  <input type="checkbox" ></input> Highest Rated Hospitals</p>
+                </div>
             </div>
         </div>
     )

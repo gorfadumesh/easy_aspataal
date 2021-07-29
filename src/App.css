@@ -1356,7 +1356,7 @@ li {
 .treatment-tab p {
   padding: 20px;
   margin-top: -17px;
-  height: 220px;
+  height: 195px;
   background-color: white;
 }
 .opinion {
@@ -1570,7 +1570,7 @@ li {
 }
 .offer-card {
   padding: 10px;
-  width: 250px;
+  width: 230px;
   background: #ffffff 0% 0% no-repeat padding-box;
   border: 1px solid #5032d5 !important;
   border-radius: 52px;
@@ -1582,7 +1582,72 @@ li {
 .offer-card img {
   width: 180px;
 }
+.offer-card p {
+  color: #0c065e;
+}
+.hospital-tab {
+  background-color: #eeebfb;
+  height: 525px;
+  margin: 50px;
+  /* border: 1px solid black; */
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.hospital-tab p {
+  padding: 50px;
+  margin-top: -17px;
+  height: 455px;
+  background-color: white;
+}
+.hospital-tab h4 {
+  color: #0c065e !important;
+  font-weight: bold;
+}
+.tab-text {
+  color: #000;
+  font-size: 24px;
+}
+.hospital-tab h6 {
+  margin-top: 15px;
+  color: #0c065e !important;
+}
+.doctor-list {
+  /* justify-content: space-evenly; */
+  padding: 42px;
+  margin-top: -17px;
+  background-color: white;
+  display: flex;
+}
 
+.doctor-list div {
+  text-align: center;
+  display: block;
+  list-style: none;
+  color: #3c3c3d;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.doctor-list h5 {
+  font-weight: bold;
+  color: #0c065e;
+}
+.doctor-list li {
+}
+.nav-link {
+  padding: 1rem !important;
+  color: #0c065e !important;
+  font-weight: bold !important;
+  font-size: 24px;
+  background: #eeebfb !important;
+  border: 0 !important;
+}
+.nav-link.active {
+  border-bottom: 5px solid #0c065e !important;
+}
+.achievement {
+  padding: 42px;
+  margin-top: -17px;
+  background-color: white;
+}
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
   .nav-one {

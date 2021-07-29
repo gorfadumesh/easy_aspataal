@@ -10,19 +10,20 @@ export default function OfferYou() {
             <p className="que-heading">Easy<span>Aspataal</span> Offers You</p>
             <div className="offer-container">
                 <div className="offer-card">
-                    <img src={Icon_1} alt="img" />
+                    <img src={Icon_1} alt="img" style={{ height: "150px", width: "auto", paddingBottom: "25px", width: "auto" }} />
+
                     <p>Easy Loan</p>
                 </div>
                 <div className="offer-card">
-                    <img src={Icon_2} alt="img" />
+                    <img src={Icon_2} alt="img" style={{ height: "150px", width: "auto", paddingBottom: "25px" }} />
                     <p>Online Payment</p>
                 </div>
                 <div className="offer-card">
-                    <img src={Icon_3} alt="img" />
+                    <img src={Icon_3} alt="img" style={{ height: "150px", width: "auto", paddingBottom: "25px" }} />
                     <p>Insurance</p>
                 </div>
                 <div className="offer-card">
-                    <img src={Icon_4} alt="img" />
+                    <img src={Icon_4} alt="img" style={{ height: "150px", width: "auto", paddingBottom: "25px" }} />
                     <p>Self Checkin</p>
                 </div>
             </div>

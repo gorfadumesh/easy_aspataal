@@ -73,6 +73,9 @@
   flex-flow: row nowrap;
   background-color: white !important;
 }
+.nav-menu .nav-link {
+  background-color: white !important;
+}
 .nav-menu {
   display: flex;
   color: black;

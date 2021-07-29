@@ -1344,7 +1344,7 @@ li {
   color: #0c065e;
 }
 .treatment {
-  height: 500px;
+  height: 550px;
 }
 .treatment-tab {
   background-color: #eeebfb;
@@ -1542,7 +1542,47 @@ li {
 }
 .hospital-banner-part2 {
   width: 40%;
+  margin-top: 50px;
+  text-align: center;
 }
+.banner-location-text {
+  text-align: left;
+  color: #393939;
+}
+.banner-tag {
+  font-size: 20px;
+  width: 260px;
+  border: 0;
+  color: white;
+  background-color: #f88e54;
+}
+.banner-footer-text {
+  /* justify-content: center; */
+  text-align: center;
+  display: flex;
+}
+.offer-you {
+  height: 500px;
+}
+.offer-container {
+  display: flex;
+  justify-content: center;
+}
+.offer-card {
+  padding: 10px;
+  width: 250px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #5032d5 !important;
+  border-radius: 52px;
+  opacity: 1;
+  margin: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.offer-card img {
+  width: 180px;
+}
+
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
   .nav-one {

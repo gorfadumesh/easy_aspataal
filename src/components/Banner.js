@@ -31,7 +31,7 @@ export default function Banner() {
                             <div className="amount" >
                                 <button className="banner-btn"><MdLocalPhone /> + 91 72920 05098</button> <p>Average cost of Surgery <br></br> <span className="price-tag1"> 5 LAKH</span> <span className="price-tag2">4 LAKH</span> </p>
                             </div>
-                            <p>Eassyaspataal helps you to finance your surgery</p>
+                            <p className="banner-text"> Eassy<span style={{ color: "#5032d5" }}>Aspataal</span> <span style={{ fontWeight: 500 }}>helps you to finance your surgery</span> </p>
                         </div>
                     </div>
                     <div>

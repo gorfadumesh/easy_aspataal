@@ -1168,6 +1168,11 @@ option {
 .banner-bg {
   width: 100% !important;
 }
+.banner-text {
+  text-align: left;
+  color: #0c065e;
+  font-weight: bold;
+}
 .banner-content img {
   justify-content: center;
   width: 470px;
@@ -1375,7 +1380,7 @@ li {
   margin-top: -228px;
 }
 .opinion-form {
-  margin-left: -170px;
+  margin-left: -250px;
 }
 .opinion-input {
   background-color: white;

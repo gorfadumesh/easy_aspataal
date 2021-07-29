@@ -1166,7 +1166,7 @@ option {
   color: black;
 }
 .banner-bg {
-  width: -webkit-fill-available !important;
+  width: 100% !important;
 }
 .banner-content img {
   justify-content: center;

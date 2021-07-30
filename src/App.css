@@ -1645,11 +1645,13 @@ li {
 }
 
 .doctor-list div {
+  width: 18%;
   text-align: center;
   display: block;
   list-style: none;
   color: #3c3c3d;
-  margin-left: 90px;
+  justify-content: center;
+  /* margin-left: 10%; */
   /* margin-right: 50px; */
 }
 .doctor-list h5 {

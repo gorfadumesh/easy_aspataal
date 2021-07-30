@@ -24,6 +24,7 @@ export default function ApplyCards() {
                 <div class="card">
                     <div><img src={Finance} alt="image" className="apl-card-img1" /></div>
                     <h1 className="apl-card-heading">Finance Your Surgery</h1>
+
                     <div className="apl-card-text">
                         <h4 className="apl-card-heading2"  >Worried About Medical Expenses</h4>
                         <h4 className="apl-card-p">Avail 0% EMI instant medical <br /> loan for your surgery </h4>

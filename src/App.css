@@ -841,13 +841,23 @@ hr.line {
   /* width: 50%; */
   padding: 5px;
 }
-.speciality h5 {
-  text-align: center;
+.speciality-list {
+  display: flex;
+  text-align: left;
+}
+.speciality-list h5 {
+  /* text-align: left; */
+}
+.speciality-list div {
+  width: 400px;
+}
+.speciality a {
+  /* text-align: center; */
   color: grey;
 }
-.speciality a:hover {
-  color: #06b !important;
-  background-color: yellow;
+.speciality-container {
+  justify-content: center;
+  margin: 0 190px 190px 190px;
 }
 .speciality a {
   text-decoration: none;

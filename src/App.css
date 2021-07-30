@@ -311,6 +311,7 @@
   border-bottom: 2px solid #fb8b4c;
 }
 .apl-card-heading2 {
+  height: 75px;
   font-size: 31px;
   margin-top: 50px;
   text-align: left;

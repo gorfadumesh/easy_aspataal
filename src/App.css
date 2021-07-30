@@ -842,14 +842,22 @@ hr.line {
   padding: 5px;
 }
 .speciality-list {
+  margin-top: 30px;
   display: flex;
   text-align: left;
 }
+.speciality-list h3 {
+  margin-bottom: 30px;
+  font-size: 20px;
+  width: 140px;
+  color: #0c065e;
+}
 .speciality-list h5 {
+  margin-bottom: 20px;
   /* text-align: left; */
 }
 .speciality-list div {
-  width: 400px;
+  width: 200px;
 }
 .speciality a {
   /* text-align: center; */
@@ -862,7 +870,7 @@ hr.line {
 .speciality a {
   text-decoration: none;
 }
-.speciality {
+.speciality h5 {
   cursor: pointer;
 }
 .spec-font {

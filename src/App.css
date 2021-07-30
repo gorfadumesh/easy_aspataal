@@ -173,9 +173,9 @@
   /* padding: 10px; */
 }
 .search-input {
-  margin: 0 20px 0 0;
+  margin: 0 10px 0 0;
   /* min-width: auto; */
-  width: 530px;
+  width: 500px;
   height: 60px;
   padding: 10px 20px 10px 20px;
   border: none;
@@ -228,6 +228,7 @@
   padding: 20px;
 }
 .search-bar2 {
+  justify-content: left;
   margin-top: 20px;
 }
 .primary-font {
@@ -243,7 +244,7 @@
   font-size: 20px;
   text-align: center;
   margin-top: 30px;
-  margin-left: 395px;
+  /* margin-left: 395px; */
   display: flex;
   flex-flow: row nowrap;
   /* justify-content: center; */

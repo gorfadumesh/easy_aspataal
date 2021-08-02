@@ -22,66 +22,83 @@ export default function NavbarHeader() {
                     <div className="nav-drop-down">
 
                         <div class="dropdown">
-                            <button class="dropbtn">Eyes <FaChevronDown /> </button>
+                            <button class="dropbtn">Cardiology <FaChevronDown /> </button>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="#">Angiography(Day Care)</a>
+                                <a href="#">Angiography With Angioplasty</a>
+                                <a href="#">Temporary / Permanent Pacemaker Implantation</a>
                             </div>
                         </div>
 
                         <div class="dropdown">
-                            <button class="dropbtn">Maternity <FaChevronDown /> </button>
+                            <button class="dropbtn">E.N.T <FaChevronDown /> </button>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="#">Tonsillectomy / Adenotonsillectomy</a>
+                                <a href="#">Tympanoplasty</a>
+                                <a href="#">Septoplasty + Turbinoplasty / Conchoplasty</a>
+                                <a href="#">Nasal Polyps/ Sinusitis (Fess)</a>
+                                <a href="#">Cortical Mastoidectomy With Myringoplasty</a>
                             </div>
                         </div>
                         <div class="dropdown">
-                            <button class="dropbtn">Nose <FaChevronDown /></button>
+                            <button class="dropbtn">Gen. Surgery <FaChevronDown /></button>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="#">Haemorrhoidectomy</a>
+                                <a href="#">Fistula repair</a>
+                                <a href="#">Fissurectomy</a>
+                                <a href="#">Appendectomy (OPEN) / (LAP)</a>
+                                <a href="#">Cholecystectomy (OPEN)/ (LAP)</a>
+                                <a href="#">Inguinal Herniorraphy / Hernioplasty</a>
+                                <a href="#">Umbilical Herniorraphy / Hernioplasty</a>
+                                <a href="#">Incisional Herniorraphy / Hernioplasty</a>
+                                <a href="#">Circumcision</a>
+                                <a href="#">Breast Lumpectomy</a>
+                                <a href="#">Hydrocele, Normal / Forcep Delivery</a>
+
                             </div>
                         </div>
                         <div class="dropdown">
-                            <button class="dropbtn">Knee <FaChevronDown /></button>
+                            <button class="dropbtn">OBS & GYNE <FaChevronDown /></button>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="#">Lap Hysterectomy (Abdominal/Vaginal)</a>
+                                <a href="#">Dilatation & Curettage (D&C)</a>
+                                <a href="#">IVF</a>
                             </div>
                         </div>
                         <div class="dropdown">
-                            <button class="dropbtn">General Surgery <FaChevronDown /></button>
+                            <button class="dropbtn">Ophthalmology <FaChevronDown /></button>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="#">Cataract - Phaco / MICS</a>
+                                <a href="#">Unifocal/Multifocal</a>
+                                <a href="#">Vitrectomy</a>
+                                <a href="#">Glaucoma</a>
                             </div>
                         </div>
                         <div class="dropdown">
-                            <button class="dropbtn">Woman's Care <FaChevronDown /></button>
+                            <button class="dropbtn">Orthopaedics <FaChevronDown /></button>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="#">Total Knee Replacement (Unilateral)/ (Bilateral)</a>
+                                <a href="#">Hip Replacement (Unilateral) / (Bilateral)</a>
+                                <a href="#"> Arthroscopic Surgery knee ( Other Than Acl) / Meniscectomy</a>
+                                <a href="#"> ACL / MCL Reconstructiony</a>
+                                <a href="#"> Laminectomy/Discectomy</a>
+
+                                <a href="#"> Carpal Tunnel Release</a>
+                                <a href="#"> Close/ open Reduction of Fracture of Limbs and POP</a>
                             </div>
                         </div><div class="dropdown">
-                            <button class="dropbtn">Woman's Care <FaChevronDown /></button>
+                            <button class="dropbtn">Urology & Nephrology <FaChevronDown /></button>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="#">Pcnl- Unilateral / Bilateral</a>
+                                <a href="#">TURP (HOLEP)</a>
+                                <a href="#">Cystoscopy Urs With Dj Stenting (Unilateral)</a>
                             </div>
                         </div><div class="dropdown">
-                            <button class="dropbtn">Woman's Care <FaChevronDown /> </button>
+                            <button class="dropbtn">ascular Surgery <FaChevronDown /> </button>
                             <div class="dropdown-content">
-                                <a href="#">Link 1</a>
-                                <a href="#">Link 2</a>
-                                <a href="#">Link 3</a>
+                                <a href="#">Varicose Veins(surgical) / Laser</a>
+                                {/* <a href="#">Link 2</a>
+                                <a href="#">Link 3</a> */}
                             </div>
                         </div>
 

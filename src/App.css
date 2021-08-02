@@ -1782,7 +1782,7 @@ li {
     align-items: center;
     background-color: white !important;
 
-    /* padding: 0px 30px 40px 30px; */
+    padding: 0;
     height: auto;
   }
   .about-image {
@@ -1791,7 +1791,21 @@ li {
   .about-heading {
     font-size: 30px;
   }
-
+  .about-text {
+    text-align: center;
+    width: auto;
+    padding: auto;
+  }
+  .about-heading2 {
+    text-align: center;
+  }
+  .about-p {
+    text-align: center;
+  }
+  .about-part {
+    width: auto;
+    padding: auto;
+  }
   .acordian {
     margin: auto;
   }
@@ -1825,6 +1839,7 @@ li {
     width: auto;
   }
   .footer-part2 {
+    margin-top: 40px;
     width: auto;
     padding: 0;
   }
@@ -1832,17 +1847,23 @@ li {
     height: auto;
   }
   .hello-container {
+    padding: 25px !important;
     display: block;
   }
+  .form {
+    background-color: #0c065e !important;
+  }
   .hello-image {
-    width: ;
-    /* display: none; */
+    display: none;
   }
   .hello-text {
     margin: auto;
   }
-  .title {
-    font-size: 18px;
+  .hello-text h1 {
+    font-size: 30px !important;
+  }
+  .hello-text h2 {
+    font-size: 20px;
   }
   .speciality-list {
     display: block;
@@ -1860,5 +1881,17 @@ li {
   .list-item p {
     margin: 10px;
     font-size: 15px;
+  }
+  .footer-inputs {
+    text-align: center;
+  }
+  .footer-button {
+    margin-top: 10px;
+  }
+  .footer-part h5 {
+    font-size: 20px;
+  }
+  .footer-last {
+    margin-top: auto;
   }
 }

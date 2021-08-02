@@ -12,7 +12,7 @@ export default function AboutUs() {
                         <div className="about-text">
                             <h1 className="about-heading">About Us</h1>
                             <h2 className="about-heading2">One stop solution in hospitalization</h2>
-                            <h4 className="about-p"> Integrated health-tech <br /> platform that co-ordinates <br /> with Hositals, Financiers and <br />insurance to deliver quality<br /> hospitalization care to patients</h4>
+                            <h4 className="about-p"> Integrated health-tech  platform that co-ordinates with Hospitals, Financiers and insurance to deliver quality hospitalization care to patients</h4>
                         </div>
 
                     </div>

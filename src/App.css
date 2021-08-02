@@ -1693,32 +1693,56 @@ li {
 
   .search-button {
     height: auto;
-    width: 300px;
+    margin-top: 10px;
+    /* width: 300px; */
     cursor: pointer;
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
   .recent-search {
-    display: block;
+    /* display: block; */
     margin: auto;
   }
-  .apply-cards,
+  .primary-font {
+    font-size: 20px;
+  }
+  .search-input {
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  .apl-card-text {
+    padding: 0;
+    height: auto;
+  }
+  .apl-card-heading {
+    font-size: 22px;
+  }
+  .apl-card-p {
+    font-size: 15px;
+  }
+  .apl-card-heading2 {
+    height: auto;
+    font-size: 15px;
+  }
   .cards {
     height: auto;
     width: auto;
     display: block;
   }
   .card {
-    height: 950px;
+    height: auto;
     width: auto;
     margin: 50px 0 0 0;
     padding: auto;
   }
   .apl-card-img1,
   .apl-card-img2 {
-    width: 200px;
+    width: auto;
+    height: 100px;
     margin: 0;
   }
   .card button {
+    margin: auto;
     height: auto;
     width: auto;
     cursor: pointer;
@@ -1728,6 +1752,13 @@ li {
   .surgeries {
     display: block;
     height: auto;
+  }
+  .sur-list {
+    overflow: scroll;
+    margin: 10px;
+  }
+  .sur-image {
+    width: 118px;
   }
   .about_us {
     display: block;

@@ -1770,4 +1770,49 @@ li {
     /* padding: 0px 30px 40px 30px; */
     height: auto;
   }
+  .about-image {
+    display: none;
+  }
+  .about-heading {
+    font-size: 30px;
+  }
+  .hello-image {
+    display: none;
+  }
+  .acordian {
+    margin: auto;
+  }
+  .que-heading {
+    font-size: 30px;
+  }
+  .conver-input-select {
+    width: 270px;
+    margin: auto;
+  }
+  .conver-input {
+    width: 270px;
+  }
+  .conv-button {
+    margin: auto;
+    width: auto;
+  }
+  .news-cards {
+    overflow: scroll;
+  }
+  .news-card {
+    width: auto;
+  }
+  .footer-list {
+    display: block;
+  }
+  .footer2-content {
+    display: block;
+  }
+  .footer-input {
+    width: auto;
+  }
+  .footer-part2 {
+    width: auto;
+    padding: 0;
+  }
 }

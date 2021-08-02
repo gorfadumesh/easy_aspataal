@@ -24,81 +24,81 @@ export default function NavbarHeader() {
                         <div class="dropdown">
                             <button class="dropbtn">Cardiology <FaChevronDown /> </button>
                             <div class="dropdown-content">
-                                <a href="#">Angiography(Day Care)</a>
-                                <a href="#">Angiography With Angioplasty</a>
-                                <a href="#">Temporary / Permanent Pacemaker Implantation</a>
+                                <a href="/speciality">Angiography(Day Care)</a>
+                                <a href="/speciality">Angiography With Angioplasty</a>
+                                <a href="/speciality">Temporary / Permanent Pacemaker Implantation</a>
                             </div>
                         </div>
 
                         <div class="dropdown">
                             <button class="dropbtn">E.N.T <FaChevronDown /> </button>
                             <div class="dropdown-content">
-                                <a href="#">Tonsillectomy / Adenotonsillectomy</a>
-                                <a href="#">Tympanoplasty</a>
-                                <a href="#">Septoplasty + Turbinoplasty / Conchoplasty</a>
-                                <a href="#">Nasal Polyps/ Sinusitis (Fess)</a>
-                                <a href="#">Cortical Mastoidectomy With Myringoplasty</a>
+                                <a href="/speciality">Tonsillectomy / Adenotonsillectomy</a>
+                                <a href="/speciality">Tympanoplasty</a>
+                                <a href="/speciality">Septoplasty + Turbinoplasty / Conchoplasty</a>
+                                <a href="/speciality">Nasal Polyps/ Sinusitis (Fess)</a>
+                                <a href="/speciality">Cortical Mastoidectomy With Myringoplasty</a>
                             </div>
                         </div>
                         <div class="dropdown">
                             <button class="dropbtn">Gen. Surgery <FaChevronDown /></button>
                             <div class="dropdown-content">
-                                <a href="#">Haemorrhoidectomy</a>
-                                <a href="#">Fistula repair</a>
-                                <a href="#">Fissurectomy</a>
-                                <a href="#">Appendectomy (OPEN) / (LAP)</a>
-                                <a href="#">Cholecystectomy (OPEN)/ (LAP)</a>
-                                <a href="#">Inguinal Herniorraphy / Hernioplasty</a>
-                                <a href="#">Umbilical Herniorraphy / Hernioplasty</a>
-                                <a href="#">Incisional Herniorraphy / Hernioplasty</a>
-                                <a href="#">Circumcision</a>
-                                <a href="#">Breast Lumpectomy</a>
-                                <a href="#">Hydrocele, Normal / Forcep Delivery</a>
+                                <a href="/speciality">Haemorrhoidectomy</a>
+                                <a href="/speciality">Fistula repair</a>
+                                <a href="/speciality">Fissurectomy</a>
+                                <a href="/speciality">Appendectomy (OPEN) / (LAP)</a>
+                                <a href="/speciality">Cholecystectomy (OPEN)/ (LAP)</a>
+                                <a href="/speciality">Inguinal Herniorraphy / Hernioplasty</a>
+                                <a href="/speciality">Umbilical Herniorraphy / Hernioplasty</a>
+                                <a href="/speciality">Incisional Herniorraphy / Hernioplasty</a>
+                                <a href="/speciality">Circumcision</a>
+                                <a href="/speciality">Breast Lumpectomy</a>
+                                <a href="/speciality">Hydrocele, Normal / Forcep Delivery</a>
 
                             </div>
                         </div>
                         <div class="dropdown">
                             <button class="dropbtn">OBS & GYNE <FaChevronDown /></button>
                             <div class="dropdown-content">
-                                <a href="#">Lap Hysterectomy (Abdominal/Vaginal)</a>
-                                <a href="#">Dilatation & Curettage (D&C)</a>
-                                <a href="#">IVF</a>
+                                <a href="/speciality">Lap Hysterectomy (Abdominal/Vaginal)</a>
+                                <a href="/speciality">Dilatation & Curettage (D&C)</a>
+                                <a href="/speciality">IVF</a>
                             </div>
                         </div>
                         <div class="dropdown">
                             <button class="dropbtn">Ophthalmology <FaChevronDown /></button>
                             <div class="dropdown-content">
-                                <a href="#">Cataract - Phaco / MICS</a>
-                                <a href="#">Unifocal/Multifocal</a>
-                                <a href="#">Vitrectomy</a>
-                                <a href="#">Glaucoma</a>
+                                <a href="/speciality">Cataract - Phaco / MICS</a>
+                                <a href="/speciality">Unifocal/Multifocal</a>
+                                <a href="/speciality">Vitrectomy</a>
+                                <a href="/speciality">Glaucoma</a>
                             </div>
                         </div>
                         <div class="dropdown">
                             <button class="dropbtn">Orthopaedics <FaChevronDown /></button>
                             <div class="dropdown-content">
-                                <a href="#">Total Knee Replacement (Unilateral)/ (Bilateral)</a>
-                                <a href="#">Hip Replacement (Unilateral) / (Bilateral)</a>
-                                <a href="#"> Arthroscopic Surgery knee ( Other Than Acl) / Meniscectomy</a>
-                                <a href="#"> ACL / MCL Reconstructiony</a>
-                                <a href="#"> Laminectomy/Discectomy</a>
+                                <a href="/speciality">Total Knee Replacement (Unilateral)/ (Bilateral)</a>
+                                <a href="/speciality">Hip Replacement (Unilateral) / (Bilateral)</a>
+                                <a href="/speciality"> Arthroscopic Surgery knee ( Other Than Acl) / Meniscectomy</a>
+                                <a href="/speciality"> ACL / MCL Reconstructiony</a>
+                                <a href="/speciality"> Laminectomy/Discectomy</a>
 
-                                <a href="#"> Carpal Tunnel Release</a>
-                                <a href="#"> Close/ open Reduction of Fracture of Limbs and POP</a>
+                                <a href="/speciality"> Carpal Tunnel Release</a>
+                                <a href="/speciality"> Close/ open Reduction of Fracture of Limbs and POP</a>
                             </div>
                         </div><div class="dropdown">
                             <button class="dropbtn">Urology & Nephrology <FaChevronDown /></button>
                             <div class="dropdown-content">
-                                <a href="#">Pcnl- Unilateral / Bilateral</a>
-                                <a href="#">TURP (HOLEP)</a>
-                                <a href="#">Cystoscopy Urs With Dj Stenting (Unilateral)</a>
+                                <a href="/speciality">Pcnl- Unilateral / Bilateral</a>
+                                <a href="/speciality">TURP (HOLEP)</a>
+                                <a href="/speciality">Cystoscopy Urs With Dj Stenting (Unilateral)</a>
                             </div>
                         </div><div class="dropdown">
                             <button class="dropbtn">ascular Surgery <FaChevronDown /> </button>
                             <div class="dropdown-content">
-                                <a href="#">Varicose Veins(surgical) / Laser</a>
-                                {/* <a href="#">Link 2</a>
-                                <a href="#">Link 3</a> */}
+                                <a href="/speciality">Varicose Veins(surgical) / Laser</a>
+                                {/* <a href="/speciality">Link 2</a>
+                                <a href="/speciality">Link 3</a> */}
                             </div>
                         </div>
 
@@ -121,7 +121,7 @@ export default function NavbarHeader() {
                             />
                             <div className="overlap-form">
                                 <div className="carosel-text">
-                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Do you</span>  really  <br /> need <span style={{ color: "#FB8B4C" }}>Surgery?</span></h1></div>
+                                    <div> <h1 className="care-text" ><span style={{ color: "/specialityFB8B4C" }}>Do you</span>  really  <br /> need <span style={{ color: "/specialityFB8B4C" }}>Surgery?</span></h1></div>
                                     <div className="carosel-list">
                                         <li>  1.40% of Surgeries are avoidable</li>
                                         <li>2. Specialist Doctors for consultation</li>
@@ -146,15 +146,15 @@ export default function NavbarHeader() {
                             />
                             <div className="overlap-form">
                                 <div className="carosel-text">
-                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Sugery</span>  Bhi <br /> Loan <span style={{ color: "#FB8B4C" }}>Bhi</span></h1></div>
+                                    <div> <h1 className="care-text" ><span style={{ color: "/specialityFB8B4C" }}>Sugery</span>  Bhi <br /> Loan <span style={{ color: "/specialityFB8B4C" }}>Bhi</span></h1></div>
                                     <div className="carosel-list">
                                         <li> Covid Safe Hospital</li>
                                         <li>Instant Medical Finance
                                             at 0% Interest</li>
                                     </div>
                                     <div>
-                                        <button className="carosel-btn" style={{ backgroundColor: "#0C065E" }}>+91 72920 05098</button>
-                                        <button className="carosel-btn" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
+                                        <button className="carosel-btn" style={{ backgroundColor: "/speciality0C065E" }}>+91 72920 05098</button>
+                                        <button className="carosel-btn" style={{ backgroundColor: "/specialityFB8B4C" }}>Apply Now</button>
 
                                     </div>
                                 </div>

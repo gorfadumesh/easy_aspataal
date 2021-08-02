@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav, Carousel, Button, Navbar, Dropdown, DropdownButton, Container, NavDropdown } from 'react-bootstrap';
-import { BsList } from "react-icons/bs";
+import { BsList, BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { FaChevronDown } from "react-icons/fa"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from "../assets/Logo/Logo.png"
@@ -8,6 +8,9 @@ import Slider1 from "../assets/Carousel Section/Slider1.jpg"
 import Slider2 from "../assets/Carousel Section/Slider2.jpg"
 import ContactForm from './ContactForm';
 export default function NavbarHeader() {
+
+    const prevIcon = <BsChevronCompactLeft className="prev-icon" />
+    const nextIcon = <BsChevronCompactRight className="prev-icon" />
     return (
         <div>
             <>
@@ -91,7 +94,7 @@ export default function NavbarHeader() {
             </>
             <div className="carousel">
 
-                <Carousel fade nextLabel="" prevLabel="">
+                <Carousel fade nextLabel="" prevLabel="" prevIcon={prevIcon} nextIcon={nextIcon} interval={2000}>
                     <Carousel.Item >
                         <div className="overlay">
                             <img

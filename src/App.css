@@ -143,7 +143,7 @@
   justify-content: space-evenly;
 }
 .logo {
-  width: 300px !important;
+  width: 225px !important;
 }
 .button {
   font-family: CamptonBold;
@@ -163,6 +163,14 @@
 }
 .text {
   color: white !important;
+}
+.carousel-control-prev-icon {
+  background-image: url() !important;
+}
+.prev-icon {
+  height: 80px;
+  color: #0c065e;
+  width: 80px;
 }
 .search-bar {
   background-color: #0c065e !important;
@@ -382,13 +390,14 @@
   justify-content: space-evenly;
 }
 .sur-list {
+  justify-content: space-evenly;
   cursor: pointer;
   margin: 40px;
   display: flex;
 }
 
 .sur-image {
-  width: 150px;
+  width: 118px;
   margin: auto;
 }
 .proce-image {
@@ -705,7 +714,6 @@ hr.line {
 
 .title {
   color: #eee;
-  font-family: sans-serif;
   font-size: 36px;
   font-weight: 600;
   margin-top: 30px;
@@ -713,7 +721,6 @@ hr.line {
 
 .subtitle {
   color: #eee;
-  font-family: sans-serif;
   font-size: 16px;
   font-weight: 600;
   margin-top: 10px;
@@ -769,7 +776,6 @@ hr.line {
 
 .placeholder {
   color: #65657b;
-  font-family: sans-serif;
   left: 20px;
   line-height: 14px;
   pointer-events: none;
@@ -842,6 +848,7 @@ hr.line {
   padding: 5px;
 }
 .speciality-list {
+  /* justify-content: space-evenly; */
   margin-top: 30px;
   display: flex;
   text-align: left;
@@ -857,6 +864,7 @@ hr.line {
   /* text-align: left; */
 }
 .speciality-list div {
+  margin: 20px;
   width: 200px;
 }
 .speciality a {
@@ -865,7 +873,7 @@ hr.line {
 }
 .speciality-container {
   justify-content: center;
-  margin: 0 190px 190px 190px;
+  margin: 5%;
 }
 .speciality a {
   text-decoration: none;
@@ -1676,6 +1684,7 @@ li {
   margin-top: -17px;
   background-color: white;
 }
+
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
   .nav-one {
@@ -1704,6 +1713,12 @@ li {
   }
   .primary-font {
     font-size: 20px;
+  }
+  .primary-font h1 {
+    font-size: 20px;
+  }
+  .search-bar-inner {
+    padding: 10px;
   }
   .search-input {
     width: auto;
@@ -1758,7 +1773,7 @@ li {
     margin: 10px;
   }
   .sur-image {
-    width: 118px;
+    width: 180px;
   }
   .about_us {
     display: block;
@@ -1776,9 +1791,7 @@ li {
   .about-heading {
     font-size: 30px;
   }
-  .hello-image {
-    display: none;
-  }
+
   .acordian {
     margin: auto;
   }
@@ -1814,5 +1827,38 @@ li {
   .footer-part2 {
     width: auto;
     padding: 0;
+  }
+  .say-hello {
+    height: auto;
+  }
+  .hello-container {
+    display: block;
+  }
+  .hello-image {
+    width: ;
+    /* display: none; */
+  }
+  .hello-text {
+    margin: auto;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .speciality-list {
+    display: block;
+  }
+  .news-card {
+    display: block;
+  }
+  .process-arrow {
+    display: none;
+  }
+  .process-list {
+    display: block;
+    margin: auto;
+  }
+  .list-item p {
+    margin: 10px;
+    font-size: 15px;
   }
 }

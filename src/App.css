@@ -1931,4 +1931,22 @@ li {
   .footer-last {
     margin-top: auto;
   }
+  .banner-content img {
+    display: none;
+  }
+  .banner-bg {
+    display: none;
+  }
+  .banner-content {
+    height: auto;
+    margin: 10px;
+    position: unset;
+    margin-top: 10px;
+  }
+  .common-image {
+    display: none;
+  }
+  .common-part {
+    width: auto;
+  }
 }

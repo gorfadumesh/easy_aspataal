@@ -88,24 +88,41 @@ export default function NavbarHeader() {
                                 <a href="/speciality"> Carpal Tunnel Release</a>
                                 <a href="/speciality"> Close/ open Reduction of Fracture of Limbs and POP</a>
                             </div>
-                        </div><div class="dropdown">
+                        </div>
+                        <div class="dropdown">
                             <button class="dropbtn">Urology & Nephrology <FaChevronDown /></button>
                             <div class="dropdown-content">
                                 <a href="/speciality">Pcnl- Unilateral / Bilateral</a>
                                 <a href="/speciality">TURP (HOLEP)</a>
                                 <a href="/speciality">Cystoscopy Urs With Dj Stenting (Unilateral)</a>
                             </div>
-                        </div><div class="dropdown">
+                        </div>
+                        <div class="dropdown">
                             <button class="dropbtn">ascular Surgery <FaChevronDown /> </button>
                             <div class="dropdown-content">
                                 <a href="/speciality">Varicose Veins(surgical) / Laser</a>
-                                {/* <a href="/speciality">Link 2</a>
-                                <a href="/speciality">Link 3</a> */}
+
                             </div>
                         </div>
 
 
 
+                    </div>
+
+                    <div className="nav-drop-down-mobile">
+                        <div>
+
+                            <div class="dropdown">
+                                <button class="dropbtn">ascular Surgery <FaChevronDown /> </button>
+                                <div class="dropdown-content">
+                                    <a href="/speciality">Varicose Veins(surgical) / Laser</a>
+                                    <a href="/speciality">Varicose Veins(surgical) / Laser</a>
+
+                                </div>
+                            </div>
+
+
+                        </div>
                     </div>
 
                 </div>

@@ -2033,4 +2033,28 @@ li {
   .about-text li {
     font-size: 14px;
   }
+  .amount {
+    display: block;
+    text-align: left;
+  }
+  .banner-btn {
+    margin: auto;
+    height: auto;
+  }
+  .common-symptoms {
+    display: block;
+  }
+  .common-text {
+    text-align: left;
+    width: auto;
+  }
+  .common-text p {
+    margin: 10px;
+  }
+  .treatment {
+    height: auto;
+  }
+  .opinion-body img {
+    display: none;
+  }
 }

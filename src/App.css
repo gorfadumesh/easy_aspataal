@@ -1949,4 +1949,14 @@ li {
   .common-part {
     width: auto;
   }
+  .nav-menu {
+    display: none;
+  }
+  .nav-one {
+    display: flex;
+    padding: 20px;
+  }
+  .button {
+    display: none;
+  }
 }

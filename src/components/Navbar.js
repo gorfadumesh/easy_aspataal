@@ -140,7 +140,7 @@ export default function NavbarHeader() {
                             />
                             <div className="overlap-form">
                                 <div className="carosel-text">
-                                    <div> <h1 className="care-text" ><span style={{ color: "/specialityFB8B4C" }}>Do you</span>  really  <br /> need <span style={{ color: "/specialityFB8B4C" }}>Surgery?</span></h1></div>
+                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Do you</span>  really  <br /> need <span style={{ color: "#FB8B4C" }}>Surgery?</span></h1></div>
                                     <div className="carosel-list">
                                         <li>40% of Surgeries are avoidable</li>
                                         <li>Specialist Doctors for consultation</li>
@@ -165,7 +165,7 @@ export default function NavbarHeader() {
                             />
                             <div className="overlap-form">
                                 <div className="carosel-text">
-                                    <div> <h1 className="care-text" ><span style={{ color: "/specialityFB8B4C" }}>Sugery</span>  Bhi <br /> Finance <span style={{ color: "#FB8B4C" }}>Bhi</span></h1></div>
+                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Sugery</span>  Bhi <br /> Finance <span style={{ color: "#FB8B4C" }}>Bhi</span></h1></div>
                                     <div className="carosel-list">
                                         <li> Covid Safe Hospital</li>
                                         <li>Instant Medical Finance
@@ -201,7 +201,7 @@ export default function NavbarHeader() {
                             />
                             <div className="overlap-form">
                                 <div className="carosel-text">
-                                    <div> <h1 className="care-text" ><span style={{ color: "/specialityFB8B4C" }}>Do you</span>  really  <br /> need <span style={{ color: "/specialityFB8B4C" }}>Surgery?</span></h1></div>
+                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Do you</span>  really  <br /> need <span style={{ color: "#FB8B4C" }}>Surgery?</span></h1></div>
                                     <div className="carosel-list">
                                         <li>  40% of Surgeries are avoidable</li>
                                         <li> Specialist Doctors for consultation</li>
@@ -226,7 +226,7 @@ export default function NavbarHeader() {
                             />
                             <div className="overlap-form">
                                 <div className="carosel-text">
-                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Sugery</span>  Bhi <br /> Loan <span style={{ color: "/specialityFB8B4C" }}>Bhi</span></h1></div>
+                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Sugery</span>  Bhi <br /> Loan <span style={{ color: "#FB8B4C" }}>Bhi</span></h1></div>
                                     <div className="carosel-list">
                                         <li> Covid Safe Hospital</li>
                                         <li>Instant Medical Finance

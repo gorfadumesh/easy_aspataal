@@ -165,15 +165,15 @@ export default function NavbarHeader() {
                             />
                             <div className="overlap-form">
                                 <div className="carosel-text">
-                                    <div> <h1 className="care-text" ><span style={{ color: "/specialityFB8B4C" }}>Sugery</span>  Bhi <br /> Loan <span style={{ color: "/specialityFB8B4C" }}>Bhi</span></h1></div>
+                                    <div> <h1 className="care-text" ><span style={{ color: "/specialityFB8B4C" }}>Sugery</span>  Bhi <br /> Finance <span style={{ color: "#FB8B4C" }}>Bhi</span></h1></div>
                                     <div className="carosel-list">
                                         <li> Covid Safe Hospital</li>
                                         <li>Instant Medical Finance
                                             at 0% Interest</li>
                                     </div>
                                     <div>
-                                        <button className="carosel-btn" style={{ backgroundColor: "/speciality0C065E" }}>+91 72920 05098</button>
-                                        <button className="carosel-btn" style={{ backgroundColor: "/specialityFB8B4C" }}>Apply Now</button>
+                                        <button className="carosel-btn" style={{ backgroundColor: "#0C065E" }}>+91 72920 05098</button>
+                                        <button className="carosel-btn" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
 
                                     </div>
                                 </div>

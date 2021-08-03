@@ -167,6 +167,9 @@
 .carousel-control-prev-icon {
   background-image: url() !important;
 }
+.carousel-mobile {
+  display: none;
+}
 .prev-icon {
   height: 80px;
   color: #0c065e;
@@ -1958,5 +1961,37 @@ li {
   }
   .button {
     display: none;
+  }
+  .carousel-desktop {
+    display: none;
+  }
+  .carousel-mobile {
+    display: block !important;
+  }
+  .carosel-text {
+    text-align: center;
+    margin-top: auto;
+  }
+  .care-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  .carosel-btn {
+    margin-top: 10px;
+    font-size: 16px;
+    width: 200px;
+  }
+  .carosel-list {
+    margin: 10px;
+    text-align: left;
+    list-style: circle;
+    margin-bottom: auto;
+  }
+  .carosel-list li {
+    font-size: 15px;
+  }
+  .overlap-form {
+    right: 0;
+    top: 25px;
   }
 }

@@ -186,6 +186,13 @@
   /* border: 3px solid green; */
   /* padding: 10px; */
 }
+.search-bar2 span {
+  margin-left: -205px;
+  font-size: 15px;
+}
+.search-bar2 a {
+  font-size: 15px;
+}
 .search-input {
   margin: 0 10px 0 0;
   /* min-width: auto; */
@@ -242,6 +249,7 @@
   padding: 20px;
 }
 .search-bar2 {
+  font-size: 20px;
   justify-content: left;
   margin-top: 20px;
 }
@@ -593,7 +601,7 @@ hr.line {
 }
 .row {
   justify-content: space-evenly;
-  padding: 40px;
+  /* padding: 40px; */
 }
 .process-title1 {
   font-size: 50px;
@@ -872,7 +880,7 @@ hr.line {
   padding: 5px;
 }
 .speciality-list {
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
   margin-top: 30px;
   display: flex;
   text-align: left;
@@ -889,7 +897,7 @@ hr.line {
 }
 .speciality-list div {
   margin: 15px;
-  width: 200px;
+  width: 100%;
 }
 .speciality a {
   /* text-align: center; */
@@ -2080,5 +2088,8 @@ li {
   .opnion-button {
     margin: 5px;
     margin-bottom: 20px;
+  }
+  .search-bar2 span {
+    margin-left: 0;
   }
 }

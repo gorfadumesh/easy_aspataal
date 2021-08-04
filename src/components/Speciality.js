@@ -17,13 +17,32 @@ export default function Speciality() {
 
                     </div>
                     <div>
-                        <a  >  <h3 className="spec-font" style={{ color: "#0C065E" }}>E.N.T</h3> </a>
-                        <a href="./speciality" >  <h5>Tonsillectomy / Adenotonsillectomy</h5> </a>
-                        <a href="./speciality">  <h5>Tympanoplasty</h5> </a>
-                        <a href="./speciality">  <h5>Septoplasty + Turbinoplasty / Conchoplasty</h5> </a>
-                        <a href="./speciality">  <h5>Nasal Polyps/ Sinusitis (Fess)</h5> </a>
-                        <a href="./speciality">  <h5>Cortical Mastoidectomy With Myringoplasty</h5> </a>
+                        <a  >  <h3 className="spec-font">Vascular Surgery</h3> </a>
+                        <a href="./speciality">  <h5> Varicose Veins(surgical) / Laser</h5> </a>
+                        {/* <a href="./speciality">  <h5>Glaucoma</h5> </a> 
+                        <a href="./speciality">  <h5>Glaucoma</h5> </a> 
+                        <a href="./speciality">  <h5>Glaucoma</h5> </a>  */}
+
                     </div>
+
+                    <div>
+                        <a  >  <h3 className="spec-font">OBS & GYNE</h3> </a>
+                        <a href="./speciality">  <h5> Lap Hysterectomy (Abdominal/Vaginal)</h5> </a>
+                        <a href="./speciality">  <h5>Dilatation & Curettage (D&C)</h5> </a>
+                        <a href="./speciality">  <h5>IVF</h5> </a>
+                    </div>
+                    <div>
+                        <a  >  <h3 className="spec-font">Ophthalmology </h3> </a>
+                        <a href="./speciality">  <h5> Cataract - Phaco / MICS</h5> </a>
+                        <a href="./speciality">  <h5> unifocal/Multifocal</h5> </a>
+                        <a href="./speciality">  <h5>Vitrectomy</h5> </a>
+                        <a href="./speciality">  <h5>Glaucoma</h5> </a>
+
+                    </div>
+
+
+                </div>
+                <div className="speciality-list">
                     <div>
                         <a  >  <h3 className="spec-font">Gen. Surgery</h3> </a>
                         <a href="./speciality" >  <h5>Haemorrhoidectomy</h5> </a>
@@ -41,20 +60,6 @@ export default function Speciality() {
 
                     </div>
                     <div>
-                        <a  >  <h3 className="spec-font">OBS & GYNE</h3> </a>
-                        <a href="./speciality">  <h5> Lap Hysterectomy (Abdominal/Vaginal)</h5> </a>
-                        <a href="./speciality">  <h5>Dilatation & Curettage (D&C)</h5> </a>
-                        <a href="./speciality">  <h5>IVF</h5> </a>
-                    </div>
-                    <div>
-                        <a  >  <h3 className="spec-font">Ophthalmology </h3> </a>
-                        <a href="./speciality">  <h5> Cataract - Phaco / MICS</h5> </a>
-                        <a href="./speciality">  <h5> unifocal/Multifocal</h5> </a>
-                        <a href="./speciality">  <h5>Vitrectomy</h5> </a>
-                        <a href="./speciality">  <h5>Glaucoma</h5> </a>
-
-                    </div>
-                    <div>
                         <a  >  <h3 className="spec-font">Orthopaedics </h3> </a>
                         <a href="./speciality">  <h5>Total Knee Replacement (Unilateral)/ (Bilateral)</h5> </a>
                         <a href="./speciality">  <h5> Hip Replacement (Unilateral) / (Bilateral)</h5> </a>
@@ -65,9 +70,6 @@ export default function Speciality() {
                         <a href="./speciality">  <h5>Close/ open Reduction of Fracture of Limbs and POP</h5> </a>
 
                     </div>
-
-                </div>
-                <div className="speciality-list">
                     <div>
                         <a  >  <h3 className="spec-font">Urology & Nephrology</h3> </a>
                         <a href="./speciality">  <h5>Pcnl- Unilateral / Bilateral</h5> </a>
@@ -76,13 +78,14 @@ export default function Speciality() {
 
                     </div>
                     <div>
-                        <a  >  <h3 className="spec-font">Vascular Surgery</h3> </a>
-                        <a href="./speciality">  <h5> Varicose Veins(surgical) / Laser</h5> </a>
-                        {/* <a href="./speciality">  <h5>Glaucoma</h5> </a> 
-                        <a href="./speciality">  <h5>Glaucoma</h5> </a> 
-                        <a href="./speciality">  <h5>Glaucoma</h5> </a>  */}
-
+                        <a  >  <h3 className="spec-font" style={{ color: "#0C065E" }}>E.N.T</h3> </a>
+                        <a href="./speciality" >  <h5>Tonsillectomy / Adenotonsillectomy</h5> </a>
+                        <a href="./speciality">  <h5>Tympanoplasty</h5> </a>
+                        <a href="./speciality">  <h5>Septoplasty + Turbinoplasty / Conchoplasty</h5> </a>
+                        <a href="./speciality">  <h5>Nasal Polyps/ Sinusitis (Fess)</h5> </a>
+                        <a href="./speciality">  <h5>Cortical Mastoidectomy With Myringoplasty</h5> </a>
                     </div>
+
                     {/* <div>
                         <a  >  <h3 className="spec-font">Speciality 1</h3> </a>
                         <a  >  <h5>Hyteroscopy</h5> </a>

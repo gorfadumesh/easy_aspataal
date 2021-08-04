@@ -9,7 +9,10 @@ import Slider2 from "../assets/Carousel Section/Slider2.jpg"
 import img1 from "../assets/Carousel Section/img1.jpeg"
 import img2 from "../assets/Carousel Section/img2.jpeg"
 import ContactForm from './ContactForm';
+
+
 export default function NavbarHeader() {
+
 
     const prevIcon = <BsChevronCompactLeft className="prev-icon" />
     const nextIcon = <BsChevronCompactRight className="prev-icon" />
@@ -110,16 +113,8 @@ export default function NavbarHeader() {
                     </div>
 
                     <div className="nav-drop-down-mobile">
-                        <div>
+                        <div >
 
-                            <div class="dropdown">
-                                <button class="dropbtn">ascular Surgery <FaChevronDown /> </button>
-                                <div class="dropdown-content">
-                                    <a href="/speciality">Varicose Veins(surgical) / Laser</a>
-                                    <a href="/speciality">Varicose Veins(surgical) / Laser</a>
-
-                                </div>
-                            </div>
 
 
                         </div>

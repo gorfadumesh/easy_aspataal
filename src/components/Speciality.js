@@ -2,8 +2,11 @@ import React, { useState } from 'react'
 import { Collapse } from "react-bootstrap"
 
 
+
 export default function Speciality() {
     const [open, setOpen] = useState(false);
+
+
 
     return (
         <div className="speciality">

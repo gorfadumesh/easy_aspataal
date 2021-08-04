@@ -9,9 +9,65 @@ import Slider2 from "../assets/Carousel Section/Slider2.jpg"
 import img1 from "../assets/Carousel Section/img1.jpeg"
 import img2 from "../assets/Carousel Section/img2.jpeg"
 import ContactForm from './ContactForm';
+import ReactDOM from "react-dom";
+import styled from "styled-components";
+// import "./styles.css";
+import MultiMenus from "./MultiMenus";
 
 
 export default function NavbarHeader() {
+    const Wrapper = styled.aside`
+    background: #ccc;
+    width: 300px;
+    `;
+
+    const menus = [
+        {
+            label: "Speciality",
+            submenu: [
+                {
+                    label: "Cardiology",
+                    submenu: [
+                        {
+                            label: "Angiography(Day Care)"
+                        },
+                        {
+                            label: "Angiography With Angioplasty"
+                        },
+                        {
+                            label: "Temporary / Permanent Pacemaker Implantation"
+                        },
+                    ]
+                },
+                {
+                    label: "E.N.T",
+                    submenu: [
+                        {
+                            label: "Tonsillectomy / Adenotonsillectomy"
+                        },
+                        {
+                            label: "Tympanoplasty",
+
+                        },
+                        {
+                            label: "Septoplasty + Turbinoplasty / Conchoplasty",
+
+                        },
+                        {
+                            label: "Nasal Polyps/ Sinusitis (Fess)",
+
+                        },
+                        {
+                            label: "Cortical Mastoidectomy With Myringoplasty",
+
+                        },
+                    ]
+                },
+
+
+            ]
+        },
+    ]
 
 
     const prevIcon = <BsChevronCompactLeft className="prev-icon" />
@@ -115,7 +171,9 @@ export default function NavbarHeader() {
                     <div className="nav-drop-down-mobile">
                         <div >
 
-
+                            <Wrapper>
+                                <MultiMenus menus={menus} />
+                            </Wrapper>
 
 
                         </div>

@@ -17,8 +17,7 @@ import MultiMenus from "./MultiMenus";
 
 export default function NavbarHeader() {
     const Wrapper = styled.aside`
-    background: #ccc;
-    width: 300px;
+    width: 100%;
     `;
 
     const menus = [
@@ -58,7 +57,7 @@ export default function NavbarHeader() {
 
                         },
                         {
-                            label: "Cortical Mastoidectomy With Myringoplasty",
+                            label: "Septoplasty + Turbinoplasty / Conchoplasty",
 
                         },
                     ]

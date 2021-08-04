@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const UL = styled.ul`
   list-style: none;
+  width:100%;
   margin: 0;
   padding: 0;
 `;
@@ -17,6 +18,8 @@ const Label = styled.span`
   width: 100%;
   display: block;
   cursor: pointer;
+color:#fff;
+
 `;
 const Arrow = styled.span`
   display: flex;
@@ -25,7 +28,6 @@ const Arrow = styled.span`
   justify-content: center;
   align-items: center;
   cursor: pointer;
-
   &::after {
     content: "";
     width: 0;
@@ -33,7 +35,7 @@ const Arrow = styled.span`
     border-left: 4px solid transparent;
     border-right: 4px solid transparent;
 
-    border-top: 4px solid #000;
+    border-top: 4px solid white;
 
     transform: ${props => (props.toggle ? "rotate(180deg)" : "rotate(0deg)")};
   }

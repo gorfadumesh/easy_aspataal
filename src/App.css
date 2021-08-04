@@ -1989,7 +1989,7 @@ li {
     display: flex;
     padding: 20px;
   }
-  .button {
+  .nav-one button {
     display: none;
   }
   .carousel-desktop {

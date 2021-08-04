@@ -11,7 +11,7 @@ export default function ApplyCards() {
 
                 <div class="card">
                     <div><img src={Plan} alt="image" className="apl-card-img1" /></div>
-                    <h1 className="apl-card-heading">Plan a Surgery</h1>
+                    <h1 className="apl-card-heading">Do you really need Surgery?</h1>
                     <div className="apl-card-text">
                         <h4 className="apl-card-heading2"  >Looking for a treatment ?</h4>
                         <h4 className="apl-card-p">Find your surgery price and plan your treatment in your nearest Hospital</h4>

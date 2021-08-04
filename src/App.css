@@ -64,6 +64,7 @@
 * {
   font-family: CamptonMedium;
 }
+
 .nav-one {
   align-items: center;
   justify-content: space-between;
@@ -327,7 +328,7 @@
   margin-top: -160px;
 }
 .apl-card-heading {
-  font-size: 38px;
+  font-size: 39px;
   color: #0c065e;
   font-weight: bolder;
   border-bottom: 2px solid #fb8b4c;

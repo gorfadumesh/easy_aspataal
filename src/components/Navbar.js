@@ -101,7 +101,7 @@ export default function NavbarHeader() {
                             </div>
                         </div>
                         <div class="dropdown">
-                            <button class="dropbtn">ascular Surgery <FaChevronDown /> </button>
+                            <button class="dropbtn">Vascular Surgery <FaChevronDown /> </button>
                             <div class="dropdown-content">
                                 <a href="/speciality">Varicose Veins(surgical) / Laser</a>
 
@@ -161,7 +161,7 @@ export default function NavbarHeader() {
                             />
                             <div className="overlap-form">
                                 <div className="carosel-text">
-                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Sugery</span>  Bhi <br /> Finance <span style={{ color: "#FB8B4C" }}>Bhi</span></h1></div>
+                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Surgery</span>  Bhi <br /> Finance <span style={{ color: "#FB8B4C" }}>Bhi</span></h1></div>
                                     <div className="carosel-list">
                                         <li> Covid Safe Hospital</li>
                                         <li>Instant Medical Finance

@@ -880,6 +880,9 @@ hr.line {
   /* width: 50%; */
   padding: 5px;
 }
+.speciality-mobile {
+  display: none;
+}
 .speciality-list {
   justify-content: space-evenly;
   margin-top: 30px;
@@ -2095,5 +2098,20 @@ li {
   }
   .ourTeam .i {
     padding: 0 40px 0 40px;
+  }
+  .speciality-desktop {
+    display: none;
+  }
+  .speciality-mobile {
+    display: block;
+  }
+  .speciality-list div {
+    margin: 0;
+  }
+  .see-more-btn {
+    color: #fb8b4c;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }

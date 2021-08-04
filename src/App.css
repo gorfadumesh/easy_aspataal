@@ -2035,11 +2035,18 @@ li {
   }
   .amount {
     display: block;
+    text-align: center;
+  }
+  .amount li {
     text-align: left;
   }
   .banner-btn {
+    font-size: 20px;
     margin: auto;
     height: auto;
+  }
+  .banner-text {
+    text-align: center;
   }
   .common-symptoms {
     display: block;
@@ -2052,9 +2059,26 @@ li {
     margin: 10px;
   }
   .treatment {
+    height: 1000px;
+  }
+  .opinion {
     height: auto;
   }
   .opinion-body img {
     display: none;
+  }
+  .opinion-heading {
+    font-size: 20px;
+  }
+  .opinion-form {
+    margin: auto;
+  }
+  .opinion-input {
+    margin: 5px;
+    width: auto;
+  }
+  .opnion-button {
+    margin: 5px;
+    margin-bottom: 20px;
   }
 }

@@ -2092,4 +2092,7 @@ li {
   .search-bar2 span {
     margin-left: 0;
   }
+  .ourTeam .i {
+    padding: 0 40px 0 40px;
+  }
 }

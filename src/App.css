@@ -2212,4 +2212,7 @@ li {
   .hospital-list-filter {
     display: none;
   }
+  .hospital-card-img {
+    width: 100%;
+  }
 }

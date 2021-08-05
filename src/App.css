@@ -2177,7 +2177,6 @@ li {
   }
   .hospital-card-text {
     margin: auto;
-    text-align: center;
   }
   .hospital-footer-button {
     width: auto;
@@ -2185,6 +2184,7 @@ li {
   }
   .hospital-card-header {
     display: block;
+    text-align: center;
   }
   .hospital-card-footer-text {
     justify-content: center;

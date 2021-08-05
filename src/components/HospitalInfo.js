@@ -118,10 +118,10 @@ export default function HospitalInfo() {
                                     outsideChevron
                                     chevronWidth={chevronWidth}
                                 >
-                                    <div style={{ background: '#EEE' }}><img className="tab-carosel-img" src={Image_4} /></div>
-                                    <div style={{ background: '#EEE' }}><img className="tab-carosel-img" src={Image_5} /></div>
-                                    <div style={{ background: '#EEE' }}><img className="tab-carosel-img" src={Image_8} /></div>
                                     <div style={{ background: '#EEE' }}><img className="tab-carosel-img" src={Image_9} /></div>
+                                    <div style={{ background: '#EEE' }}><img className="tab-carosel-img" src={Image_10} /></div>
+                                    <div style={{ background: '#EEE' }}><img className="tab-carosel-img" src={Image_9} /></div>
+                                    <div style={{ background: '#EEE' }}><img className="tab-carosel-img" src={Image_10} /></div>
                                 </ItemsCarousel>
                             </div>
                         </div>

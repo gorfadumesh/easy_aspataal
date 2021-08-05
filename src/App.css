@@ -1758,6 +1758,9 @@ li {
   margin-top: -17px;
   background-color: white;
 }
+.tab-carosel-img {
+  width: 100%;
+}
 
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */

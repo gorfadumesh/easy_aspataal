@@ -1,7 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { Tabs, Col, Tab } from 'react-bootstrap'
+import Swiper from 'react-id-swiper';
+import Image_4 from "../assets/Hospital Page Asset/Image_4.png"
+import Image_5 from "../assets/Hospital Page Asset/Image_5.png"
+import Image_8 from "../assets/Hospital Page Asset/Image_8.png"
+import Image_9 from "../assets/Hospital Page Asset/Image_9.png"
+import Image_10 from "../assets/Hospital Page Asset/Image_10.png"
+import "swiper/swiper-bundle.min.css";
+import ItemsCarousel from 'react-items-carousel';
+const params = {
+    slidesPerView: 4,
+
+    // spaceBetween: 30,
+    loop: true,
+    // loopFillGroupWithBlank: true,    
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    }
+
+}
 
 export default function HospitalInfo() {
+    const [activeItemIndex, setActiveItemIndex] = useState(0);
+    const chevronWidth = 40;
     return (
         <div>
             <div className="hospital-tab">
@@ -81,7 +107,23 @@ export default function HospitalInfo() {
                     </Tab>
                     <Tab eventKey="Home" title="Achievements" >
                         <div className="achievement">
-                            hiii
+                            <div style={{ padding: `0 ${chevronWidth}px` }}>
+                                <ItemsCarousel
+                                    requestToChangeActive={setActiveItemIndex}
+                                    activeItemIndex={activeItemIndex}
+                                    numberOfCards={2}
+                                    gutter={20}
+                                    leftChevron={<button>{'<'}</button>}
+                                    rightChevron={<button>{'>'}</button>}
+                                    outsideChevron
+                                    chevronWidth={chevronWidth}
+                                >
+                                    <div style={{ background: '#EEE' }}><img className="tab-carosel-img" src={Image_4} /></div>
+                                    <div style={{ background: '#EEE' }}><img className="tab-carosel-img" src={Image_5} /></div>
+                                    <div style={{ background: '#EEE' }}><img className="tab-carosel-img" src={Image_8} /></div>
+                                    <div style={{ background: '#EEE' }}><img className="tab-carosel-img" src={Image_9} /></div>
+                                </ItemsCarousel>
+                            </div>
                         </div>
                     </Tab>
                 </Tabs>

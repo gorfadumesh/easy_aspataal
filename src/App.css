@@ -2279,4 +2279,15 @@ li {
   .doctor-list div {
     width: 100%;
   }
+  .geRExE button {
+    width: 10px;
+    height: 10px;
+    background-color: #fb8b4c;
+    border-radius: 50%;
+    color: white;
+    border: none;
+  }
+  .sc-bxivhb img {
+    width: 95px;
+  }
 }

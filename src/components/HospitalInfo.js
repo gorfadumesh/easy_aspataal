@@ -107,7 +107,7 @@ export default function HospitalInfo() {
                     </Tab>
                     <Tab eventKey="Home" title="Achievements" >
                         <div className="achievement">
-                            <div style={{ padding: `0 ${chevronWidth}px` }}>
+                            <div >
                                 <ItemsCarousel
                                     requestToChangeActive={setActiveItemIndex}
                                     activeItemIndex={activeItemIndex}

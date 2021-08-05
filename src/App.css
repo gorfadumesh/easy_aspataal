@@ -1761,7 +1761,20 @@ li {
 .tab-carosel-img {
   width: 100%;
 }
-
+.geRExE button {
+  width: 100px;
+  height: 40px;
+  background-color: #fb8b4c;
+  border-radius: 50%;
+  color: white;
+  border: none;
+}
+.kaHnvc {
+  left: -50px;
+}
+.dFFQiB {
+  right: 50px;
+}
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */
   .nav-one {

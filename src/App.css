@@ -1632,6 +1632,13 @@ li {
 .hospital-banner {
   height: 500px auto;
 }
+.rating-text {
+  font-weight: bold;
+  color: #0c065e;
+  margin-left: 20px;
+  font-size: 13px;
+  border-left: 2px solid grey;
+}
 
 .hospital-banner-part {
   padding: 50px;
@@ -1654,9 +1661,13 @@ li {
   background-color: #f88e54;
 }
 .banner-footer-text {
-  /* justify-content: center; */
+  justify-content: center;
+  margin: 15px;
   text-align: center;
   display: flex;
+}
+.banner-footer-text span {
+  margin-left: 15px;
 }
 .offer-you {
   height: 500px;
@@ -2213,6 +2224,43 @@ li {
     display: none;
   }
   .hospital-card-img {
+    width: 100%;
+  }
+  .banner-inner {
+    display: block;
+  }
+  .hospital-banner-part {
+    width: 100%;
+    padding: none;
+  }
+  .hospital-banner-part2 {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .offer-you {
+    height: auto;
+  }
+  .offer-card {
+    margin: 65px;
+  }
+  .offer-container {
+    display: block;
+  }
+  .banner-btn {
+    margin: 5px;
+    font-size: 10px;
+  }
+  .hospital-tab {
+    height: auto;
+  }
+  .hospital-tab p {
+    height: auto;
+  }
+  .doctor-list {
+    display: block;
+  }
+  .doctor-list div {
     width: 100%;
   }
 }

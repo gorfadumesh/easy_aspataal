@@ -26,7 +26,7 @@ export default function HospitalBanner() {
                         {/* <Swiper pagination={true} className="mySwiper">
                             <SwiperSlide> <img src={Image_4} alt="img" /></SwiperSlide><SwiperSlide><img src={Image_4} alt="img" /></SwiperSlide><SwiperSlide><img src={Image_4} alt="img" /></SwiperSlide><SwiperSlide><img src={Image_4} alt="img" /></SwiperSlide>
                         </Swiper> */}
-                        <Carousel>
+                        <Carousel nextLabel="" prevLabel="" >
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
@@ -91,8 +91,10 @@ export default function HospitalBanner() {
                                 <button className="banner-btn"><MdLocalPhone /> + 91 72920 05098</button>
                             </div>
                             <div className="banner-footer-text">
-                                <p className="footer-font1" >+100</p> <p className="footer-font2">Patients Selected<br />this Hospital </p>
-                                <p>Rating  4.7/5</p>
+                                <div style={{ display: "flex" }}>
+                                    <p className="footer-font1" >+100</p> <p className="footer-font2">Patients Selected<br />this Hospital </p>
+                                </div>
+                                <p className="rating-text"> <span style={{ color: "#707070" }} >Rating   <br /> <span style={{ fontSize: "20px", color: "#FB8B4C" }}>4.7 </span></span>/5</p>
                             </div>
 
 

@@ -328,7 +328,7 @@
   margin-top: -160px;
 }
 .apl-card-heading {
-  font-size: 39px;
+  font-size: 45px;
   color: #0c065e;
   font-weight: bolder;
   border-bottom: 2px solid #fb8b4c;
@@ -1362,6 +1362,7 @@ li {
 }
 .card-footer-text {
   justify-content: center;
+  align-items: center;
   text-align: center;
   display: flex;
 }
@@ -1375,7 +1376,7 @@ li {
   text-align: left;
   font-weight: bold;
   color: #0c065e;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .common-symptoms {
@@ -2123,5 +2124,8 @@ li {
   }
   .eDWeeD {
     text-align: left;
+  }
+  .card-text {
+    padding: 0;
   }
 }

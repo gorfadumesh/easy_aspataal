@@ -206,7 +206,7 @@
 .search-hospitals-input {
   margin: 0 20px 0 0;
   /* min-width: auto; */
-  width: 600px;
+  width: 500px;
   height: 60px;
   padding: 10px 20px 10px 20px;
   border: none;
@@ -223,7 +223,7 @@
   height: 60px;
   outline: 0;
   padding: 4px 40px 0 20px;
-  width: 300px;
+  width: 225px;
 }
 .search-button {
   /* height: 3em; */
@@ -269,6 +269,18 @@
   margin-top: 30px;
   /* margin-left: 395px; */
   display: flex;
+  flex-flow: row nowrap;
+  /* justify-content: center; */
+  align-content: center;
+  align-items: center;
+  /* border:1px solid #e3f2fd; */
+}
+.recent-hospital-search {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  /* margin-left: 395px; */
+  /* display: flex; */
   flex-flow: row nowrap;
   /* justify-content: center; */
   align-content: center;
@@ -1538,11 +1550,21 @@ li {
 .hospital-list-filter p {
   align-items: center;
 }
+.hospital-list-filter-mobile {
+  display: none;
+}
+.filter-list-font input {
+  margin: 10px;
+}
 .filter-list-font {
+  align-items: center;
   display: flex;
   font-size: 15px;
   margin: 5px;
   color: #222223;
+}
+.filter-list-font input {
+  margin: 10px;
 }
 .hospital-list-filter {
   width: 100%;
@@ -1579,6 +1601,10 @@ li {
   display: flex;
 }
 .hospital-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.hospital-card-footer {
   display: flex;
   justify-content: space-between;
 }
@@ -2127,5 +2153,61 @@ li {
   }
   .card-text {
     padding: 0;
+  }
+  .search-hospitals-input {
+    margin: auto;
+    width: 285px;
+    height: 50px;
+  }
+  .serarch-input-select {
+    width: 285px;
+    margin: 10px;
+    height: 50px;
+  }
+  .hospital-list {
+    width: auto;
+  }
+  .hospital-list-card {
+    justify-content: center;
+    display: block;
+    margin: none;
+  }
+  .hospital-listing {
+    margin: auto;
+  }
+  .hospital-card-text {
+    margin: auto;
+    text-align: center;
+  }
+  .hospital-footer-button {
+    width: auto;
+    margin: 0;
+  }
+  .hospital-card-header {
+    display: block;
+  }
+  .hospital-card-footer-text {
+    justify-content: center;
+  }
+  .hospital-list-line {
+    margin: 0;
+  }
+  .hospital-list-filter-mobile {
+    display: block;
+    width: 100%;
+    height: 100% auto;
+    text-align: left;
+    /* margin: 50px; */
+    padding: 45px;
+    color: #06b;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .filter-list-font {
+    align-items: center !important;
+  }
+  .hospital-list-filter {
+    display: none;
   }
 }

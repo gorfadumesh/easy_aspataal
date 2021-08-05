@@ -24,7 +24,7 @@ export default function SearchHospital() {
                     </div>
                 </div>
 
-                <div className="recent-search" >
+                <div className="recent-hospital-search" >
                     <span style={{ color: "white" }} >Recent Searches :</span>  &emsp; <a className="link-font" href="#home">Lung Cancer </a>  &emsp; <a className="link-font" href="#home">Angioscopy </a>  &emsp; <a className="link-font" href="#home">Bypass Surgery</a>
                 </div>
 

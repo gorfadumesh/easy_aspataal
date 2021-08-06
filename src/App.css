@@ -2262,6 +2262,7 @@ li {
   }
   .offer-card {
     margin: 65px;
+    width: auto;
   }
   .offer-container {
     display: block;

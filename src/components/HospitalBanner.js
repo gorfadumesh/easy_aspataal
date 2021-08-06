@@ -6,6 +6,7 @@ import Image_8 from "../assets/Hospital Page Asset/Image_8.png"
 import Image_9 from "../assets/Hospital Page Asset/Image_9.png"
 import Image_10 from "../assets/Hospital Page Asset/Image_10.png"
 import { MdLocalPhone, MdKeyboardArrowRight } from "react-icons/md"
+import { AiFillEnvironment } from "react-icons/ai"
 import { Carousel } from "react-bootstrap"
 
 
@@ -78,7 +79,7 @@ export default function HospitalBanner() {
                         <p className="banner-heading"> Fortis  <span style={{ color: "#5032d5" }} > Hospital</span>  </p>
                         <button className="banner-tag"> Multi Speciality Hospital </button>
                         <hr />
-                        <p className="banner-location-text">Mini, Seashore Rd, Juhu Nagar, Sector 10A, Vashi, Navi Mumbai, Maharashtra 400703 </p>
+                        <p className="banner-location-text"> <AiFillEnvironment color="#F88E54" /> Mini, Seashore Rd, Juhu Nagar, Sector 10A, Vashi, Navi Mumbai, Maharashtra 400703 </p>
                         <div style={{ textAlign: "center" }}>
                             <div className="amount" >
                                 <ul>

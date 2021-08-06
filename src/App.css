@@ -1294,7 +1294,8 @@ li {
   float: left;
 }
 .amount {
-  text-align: center;
+  justify-content: center;
+  text-align: left;
   margin-top: 10px;
   display: flex;
 }
@@ -1662,7 +1663,8 @@ li {
 }
 .banner-footer-text {
   justify-content: center;
-  margin: 15px;
+  align-items: center;
+  margin: 25px;
   text-align: center;
   display: flex;
 }

@@ -13,12 +13,14 @@ import Conversation from "../components/Conversation"
 import News from "../components/News"
 import Footer from "../components/Footer"
 import NavbarOne from "../components/NavbarOne"
+import Carousel from "../components/Carousel"
 
 export default function HomePage() {
     return (
         <div>
             <NavbarOne />
             <NavbarHeader />
+            <Carousel />
             <SearchBar />
             <ApplyCards />
             <Surgeries />

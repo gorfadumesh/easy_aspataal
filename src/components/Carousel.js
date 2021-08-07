@@ -1,46 +1,136 @@
 import React from 'react'
 import { Carousel } from "react-bootstrap"
+import Slider1 from "../assets/Carousel Section/Slider1.jpg"
+import Slider2 from "../assets/Carousel Section/Slider2.jpg"
+import img1 from "../assets/Carousel Section/img1.jpeg"
+import img2 from "../assets/Carousel Section/img2.jpeg"
+import { BsList, BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 
 export default function homeCarousel() {
+    const prevIcon = <BsChevronCompactLeft className="prev-icon" />
+    const nextIcon = <BsChevronCompactRight className="prev-icon" />
     return (
         <div>
-            <Carousel fade>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="https://images.unsplash.com/photo-1584432810601-6c7f27d2362b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZmVtYWxlJTIwZG9jdG9yfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
-                        alt="First slide"
-                    />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="holder.js/800x400?text=Second slide&bg=282c34"
-                        alt="Second slide"
-                    />
+            <div className="carousel-desktop">
 
-                    <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                        className="d-block w-100"
-                        src="holder.js/800x400?text=Third slide&bg=20232a"
-                        alt="Third slide"
-                    />
+                <Carousel fade nextLabel="" prevLabel="" prevIcon={prevIcon} nextIcon={nextIcon} interval={2000}>
+                    <Carousel.Item >
+                        <div className="overlay">
+                            <img
+                                className="d-block w-100 slider "
+                                src={Slider1}
+                                alt="First slide"
+                            />
+                            <div className="overlap-form">
+                                <div className="carosel-text">
+                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Do you</span>  really  <br /> need <span style={{ color: "#FB8B4C" }}>Surgery?</span></h1></div>
+                                    <div className="carosel-list">
+                                        <li>40% of Surgeries are avoidable</li>
+                                        <li>Specialist Doctors for consultation</li>
+                                    </div>
+                                    <div>
+                                        <button className="carosel-btn" style={{ backgroundColor: "#0C065E" }}>+91 72920 05098</button>
+                                        <button className="carosel-btn" style={{ backgroundColor: "#FB8B4C" }}>Consult Now</button>
 
-                    <Carousel.Caption>
-                        <h3>Third slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
-            </Carousel>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item >
+                        <div className="overlay">
+                            <img
+                                className="d-block w-100 slider "
+                                src={Slider2}
+                                alt="First slide"
+                            />
+                            <div className="overlap-form">
+                                <div className="carosel-text">
+                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Surgery</span>  Bhi <br /> Finance <span style={{ color: "#FB8B4C" }}>Bhi</span></h1></div>
+                                    <div className="carosel-list">
+                                        <li> Covid Safe Hospital</li>
+                                        <li>Instant Medical Finance
+                                            at 0% Interest</li>
+                                    </div>
+                                    <div>
+                                        <button className="carosel-btn" style={{ backgroundColor: "#0C065E" }}>+91 72920 05098</button>
+                                        <button className="carosel-btn" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </Carousel.Item>
+
+
+
+                </Carousel>
+            </div>
+
+
+            <div className="carousel-mobile">
+
+                <Carousel fade nextLabel="" prevLabel="" prevIcon={prevIcon} nextIcon={nextIcon} interval={100000}>
+                    <Carousel.Item >
+                        <div className="overlay">
+                            <img
+                                className="d-block w-100 slider "
+                                src={img1}
+                                alt="First slide"
+                            />
+                            <div className="overlap-form">
+                                <div className="carosel-text">
+                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Do you</span>  really  <br /> need <span style={{ color: "#FB8B4C" }}>Surgery?</span></h1></div>
+                                    <div className="carosel-list">
+                                        <li>  40% of Surgeries are avoidable</li>
+                                        <li> Specialist Doctors for consultation</li>
+                                    </div>
+                                    <div>
+                                        <button className="carosel-btn" style={{ backgroundColor: "#0C065E" }}>+91 72920 05098</button>
+                                        <button className="carosel-btn" style={{ backgroundColor: "#FB8B4C" }}>Consult Now</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </Carousel.Item>
+                    <Carousel.Item >
+                        <div className="overlay">
+                            <img
+                                className="d-block w-100 slider "
+                                src={img2}
+                                alt="First slide"
+                            />
+                            <div className="overlap-form">
+                                <div className="carosel-text">
+                                    <div> <h1 className="care-text" ><span style={{ color: "#FB8B4C" }}>Sugery</span>  Bhi <br /> Loan <span style={{ color: "#FB8B4C" }}>Bhi</span></h1></div>
+                                    <div className="carosel-list">
+                                        <li> Covid Safe Hospital</li>
+                                        <li>Instant Medical Finance
+                                            at 0% Interest</li>
+                                    </div>
+                                    <div>
+                                        <button className="carosel-btn" style={{ backgroundColor: "#0C065E" }}>+91 72920 05098</button>
+                                        <button className="carosel-btn" style={{ backgroundColor: "#FB8B4C" }}>Apply Now</button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </Carousel.Item>
+
+
+
+                </Carousel>
+            </div>
         </div>
     )
 }

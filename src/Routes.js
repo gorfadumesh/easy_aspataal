@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage"
 import SpecialityPage from "./pages/SpecialityPage"
 import HospitalSearch from "./pages/HospitalSearch"
 import HospitalListing from "./pages/HospitalListing"
+import EasyLoan from "./pages/EasyLoan"
 
 import {
     BrowserRouter as Router,
@@ -31,6 +32,9 @@ export default function Routes() {
 
                 <Route exact path="/HospitalListing"  >
                     <HospitalListing />
+                </Route>
+                <Route exact path="/EasyLoan"  >
+                    <EasyLoan />
                 </Route>
             </Switch>
         </Router>

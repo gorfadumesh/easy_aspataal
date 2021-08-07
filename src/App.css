@@ -755,6 +755,7 @@ hr.line {
   height: 500px auto;
   padding: 30px;
   width: 450px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .title {
@@ -1285,6 +1286,12 @@ li {
   font-size: 24px;
   margin: 20px 0 0 0px;
 }
+.easy-banner-part {
+  width: 600px;
+  text-align: left;
+  font-size: 24px;
+  margin: 20px 0 0 0px;
+}
 .page-path {
   font-size: 20px;
   margin-top: -50px;
@@ -1777,6 +1784,175 @@ li {
 }
 .dFFQiB {
   right: 50px;
+}
+/* Easy Loan Page */
+.enquire-now {
+  display: flex;
+}
+.enquire-form {
+  padding-left: 125px;
+  padding-right: 125px;
+  width: 40%;
+  margin: 30px;
+}
+.enquire-now-form {
+  background-color: white;
+  border-radius: 40px;
+  box-sizing: border-box;
+  height: 550px;
+  padding: 40px;
+  width: 450px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.enquire-now-form p {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #0c065e;
+}
+.enquire-now-form input {
+  border: 1px solid grey;
+}
+.inquire-text {
+  width: 60%;
+  margin-right: 100px;
+  margin-top: 80px;
+}
+.inquire-font {
+  font-size: 57px;
+  font-weight: bold;
+  color: #0b0561;
+  line-height: initial;
+}
+.inquire-font span {
+  color: #f88e54;
+}
+.inquire-font2 {
+  line-height: initial;
+  color: #2a2a2a;
+  font-size: 30px;
+}
+.enquire-now-form div {
+  margin-top: 35px !important;
+}
+.why-easy-loan {
+  background-color: #eeebfb;
+}
+.easy-card {
+  padding: 10px;
+  width: 300px;
+  opacity: 1;
+  margin: 35px;
+  justify-content: center;
+  text-align: center;
+}
+.easy-card img {
+  width: auto;
+  height: 200px;
+}
+.easy-card p {
+  font-size: 30px;
+  color: #444444;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.easy-step {
+  display: flex;
+  margin: 10px;
+  width: 690px;
+  padding: 50px;
+}
+.easy-steps {
+  justify-content: center;
+  display: flex;
+}
+.step-no {
+  font-size: 40px;
+  font-weight: bold;
+  color: #b1aebb;
+  display: block;
+  width: 50%;
+  /* border-right: 2px solid #0c065e; */
+}
+.step-heading {
+  font-size: 25px;
+  font-weight: bold;
+  color: #0c065e;
+  margin-top: 10px;
+}
+.step-text {
+  padding-left: 15px;
+}
+.whats-covered {
+  background-color: #f8f6ff;
+  padding-top: 40px;
+  margin-top: 20px;
+}
+.covered-img {
+  width: 90%;
+}
+.covered-img img {
+  width: 100%;
+}
+.covered-text {
+  /* width: 50%; */
+}
+.covered-container {
+  display: flex;
+  margin-top: 100px;
+}
+.covered-step {
+  display: flex;
+  margin: 10px;
+  /* width: 690px; */
+  margin-left: -100px;
+
+  padding: 10px;
+}
+.covered-step-heading {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0c065e;
+  margin-top: 10px;
+}
+.covered-text {
+  font-size: 19px;
+  color: #2a2a2a;
+}
+.how-top-claim {
+  padding-top: 40px;
+  margin-top: 20px;
+}
+.claim-container {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.claim-heading {
+  font-size: 35px;
+  text-align: center;
+  font-weight: bold;
+  color: #0c065e;
+  padding: 10px;
+}
+.claim-part {
+  padding: 60px;
+}
+.vl {
+  border-left: 2px solid #707070;
+  height: 265px;
+  margin-top: 100px;
+}
+.easy-banner-part {
+  width: 600px;
+  text-align: left;
+  font-size: 24px;
+  margin: 20px 0 0 0px;
+}
+.easy-banner-text {
+  font-size: 30px;
+  color: #0c065e;
+  font-weight: bold;
 }
 @media only screen and (max-width: 500px) {
   /* For mobile phones: */

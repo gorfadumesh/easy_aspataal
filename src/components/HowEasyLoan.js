@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HowEasyLoan() {
     return (
-        <div>
+        <div className="how-easyloan-work">
             <p className="que-heading">How Easy<span>Loan</span> Works?</p>
             <div>
                 <div className="easy-steps">

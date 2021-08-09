@@ -1788,6 +1788,8 @@ li {
 /* Easy Loan Page */
 .enquire-now {
   display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .enquire-form {
   padding-left: 125px;
@@ -1837,6 +1839,13 @@ li {
 }
 .why-easy-loan {
   background-color: #eeebfb;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+.how-easyloan-work {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .easy-card {
   padding: 10px;
@@ -1885,7 +1894,8 @@ li {
 }
 .whats-covered {
   background-color: #f8f6ff;
-  padding-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-top: 20px;
 }
 .covered-img {
@@ -1920,7 +1930,8 @@ li {
   color: #2a2a2a;
 }
 .how-top-claim {
-  padding-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-top: 20px;
 }
 .claim-container {
@@ -2495,7 +2506,7 @@ li {
   .inquire-text {
     margin: auto;
     width: 100%;
-    padding: 10px;
+    padding: 20px;
   }
   .inquire-font {
     font-size: 30px;
@@ -2538,5 +2549,8 @@ li {
   }
   .claim-part {
     padding: 10px;
+  }
+  .claim-heading {
+    font-size: 25px;
   }
 }

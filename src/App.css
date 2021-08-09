@@ -2471,4 +2471,72 @@ li {
   .sc-bxivhb img {
     width: 95px;
   }
+  .easy-banner-part {
+    width: 100%;
+  }
+  .banner-btn {
+    width: 65%;
+  }
+  .enquire-now {
+    display: block;
+  }
+  .enquire-form {
+    margin: 10;
+    padding: 0;
+    width: auto;
+  }
+  .enquire-now-form {
+    width: 100%;
+    height: auto;
+  }
+  .input-container {
+    height: 40px;
+  }
+  .inquire-text {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+  }
+  .inquire-font {
+    font-size: 30px;
+  }
+  .inquire-font2 {
+    font-size: 20px;
+  }
+  .easy-steps {
+    display: block;
+  }
+  .easy-step {
+    width: auto;
+    padding: auto;
+    padding: 10px;
+    margin: 5;
+    background-color: #f8f6ff;
+  }
+  .step-no {
+    font-size: 30px;
+  }
+  .step-heading {
+    font-size: 19px;
+  }
+  .covered-container {
+    display: block;
+    margin: auto;
+  }
+  .covered-img {
+    width: 100%;
+  }
+  .covered-step {
+    margin: auto;
+  }
+  .claim-container {
+    display: block;
+    padding: 10px;
+  }
+  .vl {
+    display: none;
+  }
+  .claim-part {
+    padding: 10px;
+  }
 }
